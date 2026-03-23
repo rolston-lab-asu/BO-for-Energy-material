@@ -1,0 +1,114 @@
+# perovskite_config.yaml
+# Single source of truth for mp_fetch_perovskite.py and mp_nimo_perovskite.py
+#
+# Goal: find stable halide perovskites (ABX₃) with band gap near the
+# Shockley-Queisser optimum (~1.34 eV).
+#
+# Structure: Pm-3m (#221) cubic perovskite
+#   A site : large monovalent cation  (corner)
+#   B site : small divalent metal     (body-center, inside BX₆ octahedra)
+#   X site : halide anion             (face-centers, ×3)
+#
+# B-site exclusions vs. previous run:
+#   In removed — CsInX₃ / RbInX₃ are mixed-valent In⁺/In³⁺ charge-ordered
+#                tetragonal compounds, not simple ABX₃ perovskites. Their PBE
+#                gaps (~1.3–1.7 eV) are structural artifacts; experimental gaps
+#                are 2.3–3.0 eV. (Chemistry of Materials 2019, DOI:10.1021/
+#                acs.chemmater.9b04095)
+#   Sb removed — similar off-stoichiometry and lone-pair issues; no confirmed
+#                cubic ABX₃ perovskite phase in this composition space.
+
+elements:
+  A: ["Cs", "Rb", "K"]
+  B: ["Pb", "Sn", "Ge", "Bi"]
+  X: ["I",  "Br", "Cl"]
+
+# Stability filter — relaxed: many halide perovskites are metastable
+hull_threshold: 0.15
+
+# PV objective
+pv:
+  bg_target: 1.34   # Shockley-Queisser optimum (eV)
+
+# Scissor corrections applied to PBE band gaps before the NIMO objective is
+# computed. MP provides PBE (GGA) gaps without spin-orbit coupling (SOC).
+# The PBE error is B-site AND halide dependent: as X goes I→Br→Cl the
+# B-s/X-p hybridisation weakens, B-s self-interaction error grows, and the
+# needed correction increases.  A single scalar per B-site (previous approach)
+# underestimated CsSnBr₃ by 0.40 eV and CsGeBr₃ by 1.0 eV.
+#
+# Calibration sources (experimental optical gaps):
+#   Sn-I  : CsSnI₃  exp ~1.28 eV; PBE ~0.50 eV → +0.75 eV  (Stoumpos 2013)
+#   Sn-Br : CsSnBr₃ exp ~1.75 eV; PBE ~0.60 eV → +1.15 eV  (Gupta ACS-EL 2016)
+#   Sn-Cl : no strong exp ref; estimated from Sn-I/Br trend  → +1.00 eV
+#   Ge-I  : CsGeI₃  exp ~1.60 eV; HSE ~1.65 eV; PBE ~1.0 eV → +0.65 eV
+#   Ge-Br : CsGeBr₃ exp ~2.32 eV; HSE ~2.34 eV; PBE ~0.78 eV → +1.55 eV
+#   Ge-Cl : CsGeCl₃ HSE ~3.73 eV; PBE ~2.15 eV → +1.60 eV  (ACS Omega 2022)
+#   Pb-I  : CsPbI₃  exp ~1.73 eV; PBE-noSOC ~1.55 eV → +0.20 eV
+#   Pb-Br : CsPbBr₃ exp ~2.36 eV; PBE-noSOC ~1.90 eV → +0.45 eV
+#   Pb-Cl : CsPbCl₃ exp ~3.00 eV; PBE-noSOC ~2.50 eV → +0.50 eV
+#   Bi    : sparse data; conservative uniform +0.30–0.50 eV
+#
+# The corrected gap is stored as band_gap in the CSV; the raw PBE value
+# is preserved in band_gap_raw for traceability.
+scissor:
+  B_column: "B"    # candidates CSV column identifying the B-site element
+  X_column: "X"    # candidates CSV column identifying the X-site halide
+  offsets:
+    Pb:
+      I:  0.20
+      Br: 0.45
+      Cl: 0.50
+    Sn:
+      I:  0.75
+      Br: 1.15
+      Cl: 1.00
+    Ge:
+      I:  0.65
+      Br: 1.55
+      Cl: 1.60
+    Bi:
+      I:  0.30
+      Br: 0.40
+      Cl: 0.50
+
+# File paths
+files:
+  candidates:  "perovskite_candidates.csv"
+  proposals:   "perovskite_proposals.csv"
+  nimo_csv:    "perovskite_nimo_working.csv"
+  checkpoint:  "perovskite_checkpoint.json"
+  plot_prefix: "perovskite_convergence"
+
+# NIMO loop parameters
+nimo:
+  num_cycles:     60
+  seed_cycles:    6
+  num_objectives: 2    # formation_energy_per_atom  AND  |band_gap - bg_target|
+  num_proposals:  1
+  default_method: "PHYSBO"
+
+# Feature columns (must match CSV column names)
+# Perovskite-specific: includes tolerance factor and octahedral factor
+feature_cols:
+  - "a_eneg"             # Pauling electronegativity of A-site cation
+  - "b_eneg"             # Pauling electronegativity of B-site metal
+  - "x_eneg"             # Pauling electronegativity of X-site halide
+  - "a_radius"           # Shannon ionic radius of A (Å, CN=XII)
+  - "b_radius"           # Shannon ionic radius of B (Å, CN=VI)
+  - "x_radius"           # Shannon ionic radius of X (Å, CN=VI)
+  - "a_max_oxid"         # max common oxidation state of A
+  - "b_max_oxid"         # max common oxidation state of B
+  - "tolerance_factor"   # Goldschmidt t = (r_A + r_X) / (√2 · (r_B + r_X))
+  - "octahedral_factor"  # μ = r_B / r_X — stability of BX₆ octahedra
+  # Structure-based features — distinguish polymorphs with same composition
+  - "spacegroup_number"  # international spacegroup number (1–230)
+  - "crystal_system"     # integer: cubic=7, tetragonal=4, orthorhombic=3, …
+  - "volume_per_atom"    # unit cell volume / nsites (Å³/atom)
+  - "density"            # mass density (g/cm³)
+
+# Materials Project API settings
+api:
+  max_retries:       3
+  retry_base_delay:  2.0
+  inter_call_delay:  0.3

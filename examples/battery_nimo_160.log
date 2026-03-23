@@ -1,0 +1,23 @@
+Candidates : 892 | Method: PHYSBO | Seed cycles: 8 | Total cycles: 160
+Objectives : maximise voltage  +  minimise volume change
+
+
+All candidates measured after cycle 0. Stopping early.
+
+====================================================================
+Optimization complete — PHYSBO, 892 queries
+
+Pareto front (7 materials):
+  Formula                battery_id           Voltage       ΔV  TM
+  --------------------------------------------------------------------
+  Mn(PO4)2               mp-753895_Li          5.4995   0.0762  Mn
+  NiP2O7                 mp-26231_Li           5.4811   0.0144  Ni
+  Mn2F7                  mp-753435_Li          5.4795   0.0142  Mn
+  Na2Fe(Si2O5)3          mp-6838_Li            5.4485   0.0004  Fe
+  Ni3SbO8                mp-754228_Li          4.1492   0.0003  Ni
+  NbNi3O8                mp-754424_Li          3.8357   0.0002  Ni
+  V2OF5                  mp-752757_Li          3.5414   0.0001  V
+
+ Cyc  Formula                 TM   Voltage        ΔV
+  ----------------------------------------------------
+No data to plot.

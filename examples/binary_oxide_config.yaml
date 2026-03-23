@@ -1,0 +1,40 @@
+# binary_oxide_config.yaml
+# Single source of truth for mp_fetch_candidates.py and mp_nimo_loop.py
+
+# Elements to pair with oxygen
+elements:
+  metals: ["Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn",
+           "Ga", "Ge", "Zr", "Nb", "Mo", "Sn", "W", "Al", "Mg", "Ca"]
+
+# Exclude materials too far above the convex hull
+# 0.0  = on hull only | 0.05 = slightly metastable | 0.1 = broad screening
+hull_threshold: 0.05
+
+# File paths (relative to working directory)
+files:
+  candidates:  "mp_candidates.csv"
+  proposals:   "mp_proposals.csv"
+  nimo_csv:    "mp_nimo_working.csv"
+  checkpoint:  "mp_checkpoint.json"
+  plot_prefix: "mp_convergence"
+
+# NIMO loop parameters
+nimo:
+  num_cycles:     30
+  seed_cycles:    3
+  num_objectives: 1
+  num_proposals:  1
+  default_method: "PHYSBO"   # PHYSBO | BLOX | RE | NTS | AX
+
+# Feature columns fed to NIMO (must match CSV column names, excluding objective)
+feature_cols:
+  - "x_fraction"
+  - "mean_eneg"
+  - "mean_radius"
+  - "max_oxid"
+
+# Materials Project API settings
+api:
+  max_retries:       3
+  retry_base_delay:  2.0   # seconds; wait = base * 2^attempt  (2s, 4s, 8s)
+  inter_call_delay:  0.3   # seconds to sleep between consecutive API calls

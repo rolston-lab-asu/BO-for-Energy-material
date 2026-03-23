@@ -150,8 +150,13 @@ class selection():
 
 
         if self.method == "DOE":
-            res = nimo.ai_tools.ai_tool_doe.DOE(self.input_file, self.output_file, 
+            res = nimo.ai_tools.ai_tool_doe.DOE(self.input_file, self.output_file,
             self.num_objectives, self.num_proposals, self.mode, self.max_iter).select()
+            return res
+
+        if self.method == "AX":
+            res = nimo.ai_tools.ai_tool_ax.AX(self.input_file, self.output_file,
+            self.num_objectives, self.num_proposals, self.minimization, self.output_res).select()
             return res
 
 

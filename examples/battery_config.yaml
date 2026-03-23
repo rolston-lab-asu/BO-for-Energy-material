@@ -1,0 +1,63 @@
+# battery_config.yaml
+# Single source of truth for mp_fetch_battery.py and mp_nimo_battery.py
+#
+# Goal: find Li-intercalation cathode materials that simultaneously
+#   maximise average intercalation voltage  (energy density proxy)
+#   minimise volume change on lithiation    (cycle stability proxy)
+#
+# Both objectives are DFT-computed by MP — no scissor correction needed.
+# Objective stored in CSV:
+#   neg_avg_voltage  = -average_voltage   (minimise → maximise voltage)
+#   max_delta_volume = fractional vol. change  (minimise directly)
+
+battery:
+  working_ion:      "Li"
+  tm_elements:      ["Co", "Mn", "Ni", "Fe", "V", "Cr", "Ti", "Mo"]
+  voltage_min:           2.5    # V vs Li/Li⁺ — lower bound for useful cathodes
+  voltage_max:           5.5    # V — upper bound for MP query (keeps exotic materials)
+  voltage_practical_max: 4.5    # V — electrolyte stability limit (liquid electrolytes)
+                                 # voltages above this are capped before passing to NIMO
+                                 # so BO optimises within the usable window
+  max_delta_volume: 0.40   # fractional; LiFePO4 ≈ 0.07, LiCoO2 ≈ 0.02
+  hull_threshold:   0.10   # eV/atom — stability of discharge structure
+  valid_thermo_types:
+    - "GGA_GGA+U"
+    - "GGA_GGA+U_R2SCAN"
+
+# File paths
+files:
+  candidates:  "battery_candidates.csv"
+  proposals:   "battery_proposals.csv"
+  nimo_csv:    "battery_nimo_working.csv"
+  checkpoint:  "battery_checkpoint.json"
+  plot_prefix: "battery_convergence"
+
+# NIMO loop parameters
+nimo:
+  num_cycles:     160
+  seed_cycles:    8
+  num_objectives: 2    # neg_avg_voltage  AND  max_delta_volume
+  num_proposals:  1
+  default_method: "PHYSBO"
+
+# Feature columns (available before measuring objectives)
+feature_cols:
+  - "tm_eneg"                 # composition-weighted Pauling eneg of TM site(s)
+  - "tm_ionic_radius"         # composition-weighted atomic radius of TM site(s) (Å)
+  - "tm_max_oxidation_state"  # composition-weighted max common oxidation state
+  - "anion_eneg"              # Pauling eneg of highest-eneg non-TM element (O/S/F)
+  - "li_per_fu"               # Li atoms per formula unit in discharge structure
+  - "spacegroup_number"       # international SG number of Li-free framework
+  - "crystal_system"          # integer: cubic=7, hex=6, trig=5, tet=4, ortho=3, …
+  - "volume_per_atom"         # framework volume / nsites (Å³/atom)
+  - "density"                 # framework mass density (g/cm³)
+  # Physics-motivated features (added 2026-03-18)
+  - "polyanion_eneg"          # Goodenough inductive effect: eneg of P/S/Si/As/B/Mo/W (0=simple oxide)
+  - "structure_prototype"     # topology: olivine=1, spinel=2, layered=3, mono-layered=4, NASICON=5, other=0
+  - "tm_oxidation_discharge"  # actual TM oxidation state in discharged structure (pins redox couple)
+
+# Materials Project API settings
+api:
+  max_retries:       3
+  retry_base_delay:  2.0
+  inter_call_delay:  0.5   # slightly longer for electrode endpoint

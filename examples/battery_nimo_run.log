@@ -1,0 +1,3769 @@
+Candidates : 892 | Method: PHYSBO | Seed cycles: 8 | Total cycles: 80
+Objectives : maximise voltage  +  minimise volume change
+
+── Cycle  1/80 [RE] (884 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  61
+proposal =  [ 1.88    1.35    3.      3.44    1.      5.      2.     12.0438  3.2108]
+###
+Finish selection of proposals!
+  Querying: CoP2O7 (mp-27043_Li)  [TM=Co]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 54471.48it/s]
+  avg_voltage = 5.2705 V    max_ΔV = 0.0240
+  Best voltage : 5.2705 V  (CoP2O7)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  2/80 [RE] (883 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  515
+proposal =  [ 1.55    1.4     7.      3.44    2.     11.      2.     13.9056  2.5198]
+###
+Finish selection of proposals!
+  Querying: MnCSO7 (mp-754499_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 64527.75it/s]
+  avg_voltage = 4.2646 V    max_ΔV = 0.0806
+  Best voltage : 5.2705 V  (CoP2O7)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  3/80 [RE] (882 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  477
+proposal =  [  1.55     1.4      7.       3.44     3.     166.       5.      12.2833
+   4.1875]
+###
+Finish selection of proposals!
+  Querying: Mn5O8 (mp-752536_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 2.8245 V    max_ΔV = 0.0014
+  Best voltage : 5.2705 V  (CoP2O7)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  4/80 [RE] (881 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  335
+proposal =  [ 1.55    1.4     7.      3.44    1.     15.      2.     14.2665  2.539 ]
+###
+Finish selection of proposals!
+  Querying: Mn(PO3)4 (mp-26274_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 83886.08it/s]
+  avg_voltage = 5.4383 V    max_ΔV = 0.0101
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  5/80 [RE] (880 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  130
+proposal =  [  1.66     1.4      6.       3.44     2.     186.       6.      11.8955
+   5.4421]
+###
+Finish selection of proposals!
+  Querying: Cr3WO8 (mp-773181_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 3.5380 V    max_ΔV = 0.0394
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  6/80 [RE] (879 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  357
+proposal =  [ 1.55    1.4     7.      3.44    5.      2.      1.     12.2315  4.1679]
+###
+Finish selection of proposals!
+  Querying: Mn2Cu3O10 (mp-755409_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 3.9818 V    max_ΔV = 0.0052
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  7/80 [RE] (878 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  208
+proposal =  [ 1.83    1.4     3.      3.44    3.      1.      1.     13.6053  2.9049]
+###
+Finish selection of proposals!
+  Querying: Fe3(PO4)4 (mp-26077_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 5.2968 V    max_ΔV = 0.0084
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  8/80 [RE] (877 unmeasured) ──
+Start selection of proposals by RE!
+Proposals
+###
+number = 1
+actions =  420
+proposal =  [ 1.715   1.375   5.      3.44    4.      8.      2.     11.1756  4.8502]
+###
+Finish selection of proposals!
+  Querying: Mn3Nb2Co3O16 (mp-763519_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 87381.33it/s]
+  avg_voltage = 3.7902 V    max_ΔV = 0.1053
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle  9/80 [PHYSBO] (876 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 21.83229427904414
+50 -th epoch marginal likelihood 20.885354995528747
+100 -th epoch marginal likelihood 20.34150085926355
+150 -th epoch marginal likelihood 20.030382605695145
+200 -th epoch marginal likelihood 19.83943112953623
+250 -th epoch marginal likelihood 19.70763086933548
+300 -th epoch marginal likelihood 19.604313456678703
+350 -th epoch marginal likelihood 19.515391008356318
+400 -th epoch marginal likelihood 19.43498976965457
+450 -th epoch marginal likelihood 19.360844362045604
+500 -th epoch marginal likelihood 19.2920507891412
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood -18.25919965958792
+50 -th epoch marginal likelihood -20.89731994933531
+100 -th epoch marginal likelihood -22.68135531810031
+150 -th epoch marginal likelihood -23.899353267561132
+200 -th epoch marginal likelihood -24.752744460338107
+250 -th epoch marginal likelihood -25.365779227996853
+300 -th epoch marginal likelihood -25.817716061354282
+350 -th epoch marginal likelihood -26.160554859141254
+400 -th epoch marginal likelihood -26.429090659027352
+450 -th epoch marginal likelihood -26.646886861795345
+500 -th epoch marginal likelihood -26.82997663955052
+Done
+
+Proposals
+###
+number = 1
+actions =  625
+proposal =  [ 2.16    1.45    6.      3.44    1.     15.      2.     14.903   5.4869]
+###
+Finish selection of proposals!
+  Querying: Nd2Tl(MoO4)4 (mp-543110_Li)  [TM=Mo]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 4.8747 V    max_ΔV = 0.0328
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 10/80 [PHYSBO] (875 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 23.01250778468605
+50 -th epoch marginal likelihood 22.016726007933784
+100 -th epoch marginal likelihood 21.447279245378425
+150 -th epoch marginal likelihood 21.123329615046543
+200 -th epoch marginal likelihood 20.925418743025425
+250 -th epoch marginal likelihood 20.788866328833603
+300 -th epoch marginal likelihood 20.681447473713582
+350 -th epoch marginal likelihood 20.58871155245016
+400 -th epoch marginal likelihood 20.504871179881178
+450 -th epoch marginal likelihood 20.427776551685746
+500 -th epoch marginal likelihood 20.3565426361283
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood -14.98812311960619
+50 -th epoch marginal likelihood -18.86758176504052
+100 -th epoch marginal likelihood -21.53293148083791
+150 -th epoch marginal likelihood -23.38475603749699
+200 -th epoch marginal likelihood -24.70494541493572
+250 -th epoch marginal likelihood -25.668013467226345
+300 -th epoch marginal likelihood -26.38578592959906
+350 -th epoch marginal likelihood -26.932224821738547
+400 -th epoch marginal likelihood -27.35752540142597
+450 -th epoch marginal likelihood -27.696455943875186
+500 -th epoch marginal likelihood -27.973474451445558
+Done
+
+Proposals
+###
+number = 1
+actions =  308
+proposal =  [ 1.91    1.35    2.      3.44    3.      1.      1.     18.2424  2.6123]
+###
+Finish selection of proposals!
+  Querying: K2NiO4 (mp-764414_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+  avg_voltage = 3.4220 V    max_ΔV = 0.0263
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 11/80 [PHYSBO] (874 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 29.992361094646675
+50 -th epoch marginal likelihood 27.628463760040724
+100 -th epoch marginal likelihood 26.069638278053148
+150 -th epoch marginal likelihood 25.04377717618705
+200 -th epoch marginal likelihood 24.35254186117305
+250 -th epoch marginal likelihood 23.87243610612885
+300 -th epoch marginal likelihood 23.52620735693634
+350 -th epoch marginal likelihood 23.265129443236834
+400 -th epoch marginal likelihood 23.058299778616643
+450 -th epoch marginal likelihood 22.88617637212817
+500 -th epoch marginal likelihood 22.736576749173814
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood -11.706214366985883
+50 -th epoch marginal likelihood -16.81609236139293
+100 -th epoch marginal likelihood -20.35963948544934
+150 -th epoch marginal likelihood -22.84609714989828
+200 -th epoch marginal likelihood -24.63594706103345
+250 -th epoch marginal likelihood -25.953431463817786
+300 -th epoch marginal likelihood -26.942825321273222
+350 -th epoch marginal likelihood -27.69994616531146
+400 -th epoch marginal likelihood -28.29015451669384
+450 -th epoch marginal likelihood -28.75904511675446
+500 -th epoch marginal likelihood -29.139017559976097
+Done
+
+Proposals
+###
+number = 1
+actions =  603
+proposal =  [ 1.83    1.4     3.      3.44    1.      5.      2.     11.3371  3.3838]
+###
+Finish selection of proposals!
+  Querying: Na5Fe6(SiO3)12 (mp-766215_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 4.7302 V    max_ΔV = 0.0031
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 12/80 [PHYSBO] (873 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 30.163422864753677
+50 -th epoch marginal likelihood 27.912996496652195
+100 -th epoch marginal likelihood 26.463632615237778
+150 -th epoch marginal likelihood 25.52702113866649
+200 -th epoch marginal likelihood 24.902545926507884
+250 -th epoch marginal likelihood 24.470739740292377
+300 -th epoch marginal likelihood 24.158712080610304
+350 -th epoch marginal likelihood 23.92104051643507
+400 -th epoch marginal likelihood 23.72946703919581
+450 -th epoch marginal likelihood 23.56676305385132
+500 -th epoch marginal likelihood 23.422757292076128
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood -14.0698590862252
+50 -th epoch marginal likelihood -19.116207047638202
+100 -th epoch marginal likelihood -22.601602088775405
+150 -th epoch marginal likelihood -25.036536775220007
+200 -th epoch marginal likelihood -26.781858295154993
+250 -th epoch marginal likelihood -28.061576885464977
+300 -th epoch marginal likelihood -29.019516555317793
+350 -th epoch marginal likelihood -29.750975876201593
+400 -th epoch marginal likelihood -30.320785964582253
+450 -th epoch marginal likelihood -30.774021289261906
+500 -th epoch marginal likelihood -31.142575393293058
+Done
+
+Proposals
+###
+number = 1
+actions =  103
+proposal =  [ 1.728   1.4     4.8     3.44    2.     60.      3.     15.147   2.9643]
+###
+Finish selection of proposals!
+  Querying: Cr3(FeO6)2 (mp-772616_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 3.2477 V    max_ΔV = 0.0189
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 13/80 [PHYSBO] (872 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 33.71940687268559
+50 -th epoch marginal likelihood 31.028372087514143
+100 -th epoch marginal likelihood 29.25010308307244
+150 -th epoch marginal likelihood 28.06516958714731
+200 -th epoch marginal likelihood 27.254114426806478
+250 -th epoch marginal likelihood 26.683375752264887
+300 -th epoch marginal likelihood 26.26743069107446
+350 -th epoch marginal likelihood 25.95075177858493
+400 -th epoch marginal likelihood 25.69748949040074
+450 -th epoch marginal likelihood 25.484855527351655
+500 -th epoch marginal likelihood 25.298721608909798
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood -0.017001177102017095
+50 -th epoch marginal likelihood -8.582155822651501
+100 -th epoch marginal likelihood -14.633614833240735
+150 -th epoch marginal likelihood -18.956166421204124
+200 -th epoch marginal likelihood -22.118396715769617
+250 -th epoch marginal likelihood -24.479975591124596
+300 -th epoch marginal likelihood -26.27553526026701
+350 -th epoch marginal likelihood -27.662768173843403
+400 -th epoch marginal likelihood -28.75041578148432
+450 -th epoch marginal likelihood -29.615154326108595
+500 -th epoch marginal likelihood -30.31210925125695
+Done
+
+Proposals
+###
+number = 1
+actions =  742
+proposal =  [ 1.63    1.35    5.      3.44    1.      2.      1.     13.3836  2.3568]
+###
+Finish selection of proposals!
+  Querying: V(CO3)2 (mp-758080_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 3.0164 V    max_ΔV = 0.0149
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 14/80 [PHYSBO] (871 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 41.20128266563191
+50 -th epoch marginal likelihood 37.14891946360558
+100 -th epoch marginal likelihood 34.40283435578303
+150 -th epoch marginal likelihood 32.521554056451144
+200 -th epoch marginal likelihood 31.203431264774444
+250 -th epoch marginal likelihood 30.260102956688183
+300 -th epoch marginal likelihood 29.568830033291423
+350 -th epoch marginal likelihood 29.0480926506432
+400 -th epoch marginal likelihood 28.64304612957491
+450 -th epoch marginal likelihood 28.31653056197286
+500 -th epoch marginal likelihood 28.04334695965777
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 8.91543609114428
+50 -th epoch marginal likelihood -1.9767272293526688
+100 -th epoch marginal likelihood -9.75332194046674
+150 -th epoch marginal likelihood -15.36162694253624
+200 -th epoch marginal likelihood -19.49970697564205
+250 -th epoch marginal likelihood -22.61394057013804
+300 -th epoch marginal likelihood -24.99809644913978
+350 -th epoch marginal likelihood -26.851095694275088
+400 -th epoch marginal likelihood -28.311021483292024
+450 -th epoch marginal likelihood -29.475830492852367
+500 -th epoch marginal likelihood -30.416351129596894
+Done
+
+Proposals
+###
+number = 1
+actions =  55
+proposal =  [ 1.88    1.35    3.      3.44    2.      9.      2.     10.1489  1.9557]
+###
+Finish selection of proposals!
+  Querying: CoH8(CO5)2 (mp-759255_Li)  [TM=Co]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 76260.07it/s]
+  avg_voltage = 4.6718 V    max_ΔV = 0.0484
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 15/80 [PHYSBO] (870 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 40.42396825953422
+50 -th epoch marginal likelihood 36.72575515335566
+100 -th epoch marginal likelihood 34.23717804543037
+150 -th epoch marginal likelihood 32.555256177535675
+200 -th epoch marginal likelihood 31.39309186214934
+250 -th epoch marginal likelihood 30.569917011649782
+300 -th epoch marginal likelihood 29.96953836393829
+350 -th epoch marginal likelihood 29.516045637364012
+400 -th epoch marginal likelihood 29.159424717973152
+450 -th epoch marginal likelihood 28.866708149474043
+500 -th epoch marginal likelihood 28.616333212907556
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 16.315859608406086
+50 -th epoch marginal likelihood 3.413313976241497
+100 -th epoch marginal likelihood -5.857370673406841
+150 -th epoch marginal likelihood -12.582753904972968
+200 -th epoch marginal likelihood -17.57084445968553
+250 -th epoch marginal likelihood -21.342140658145546
+300 -th epoch marginal likelihood -24.241236973636667
+350 -th epoch marginal likelihood -26.502634747752737
+400 -th epoch marginal likelihood -28.289814853082177
+450 -th epoch marginal likelihood -29.7191920634709
+500 -th epoch marginal likelihood -30.87523198530975
+Done
+
+Proposals
+###
+number = 1
+actions =  806
+proposal =  [ 1.63    1.35    5.      3.98    1.      1.      1.     11.748   3.9549]
+###
+Finish selection of proposals!
+  Querying: V3O5F (mp-752985_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 2.9892 V    max_ΔV = 0.0073
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 16/80 [PHYSBO] (869 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 46.30049745541621
+50 -th epoch marginal likelihood 41.69011615992715
+100 -th epoch marginal likelihood 38.52081933143241
+150 -th epoch marginal likelihood 36.331246506995434
+200 -th epoch marginal likelihood 34.7892616600526
+250 -th epoch marginal likelihood 33.68133719118389
+300 -th epoch marginal likelihood 32.867404936857746
+350 -th epoch marginal likelihood 32.25381405217818
+400 -th epoch marginal likelihood 31.777100131427247
+450 -th epoch marginal likelihood 31.393923051537975
+500 -th epoch marginal likelihood 31.07463324501437
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 143.01678724117286
+50 -th epoch marginal likelihood 108.73123604600335
+100 -th epoch marginal likelihood 81.94198872751676
+150 -th epoch marginal likelihood 60.95586166711571
+200 -th epoch marginal likelihood 44.325486246423054
+250 -th epoch marginal likelihood 31.015190340733255
+300 -th epoch marginal likelihood 20.270826254218633
+350 -th epoch marginal likelihood 11.532718934472115
+400 -th epoch marginal likelihood 4.378690215593039
+450 -th epoch marginal likelihood -1.5141408123961213
+500 -th epoch marginal likelihood -6.395577120774789
+Done
+
+Proposals
+###
+number = 1
+actions =  587
+proposal =  [ 2.16    1.45    6.      3.44    1.     11.      2.     14.4669  3.5566]
+###
+Finish selection of proposals!
+  Querying: Mo3P3O13 (mp-1013898_Li)  [TM=Mo]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 3.5600 V    max_ΔV = 0.0071
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 17/80 [PHYSBO] (868 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 48.62165123360673
+50 -th epoch marginal likelihood 43.65369490565029
+100 -th epoch marginal likelihood 40.24812136039275
+150 -th epoch marginal likelihood 37.90409458162586
+200 -th epoch marginal likelihood 36.256304792345546
+250 -th epoch marginal likelihood 35.07297044171197
+300 -th epoch marginal likelihood 34.20337158277282
+350 -th epoch marginal likelihood 33.547332718648434
+400 -th epoch marginal likelihood 33.0372220692462
+450 -th epoch marginal likelihood 32.626939710588786
+500 -th epoch marginal likelihood 32.284953049647996
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 28.52483603192765
+50 -th epoch marginal likelihood 12.315079478210762
+100 -th epoch marginal likelihood 0.5535333833796159
+150 -th epoch marginal likelihood -8.057863694643217
+200 -th epoch marginal likelihood -14.494040842328062
+250 -th epoch marginal likelihood -19.39228854112278
+300 -th epoch marginal likelihood -23.179292919267873
+350 -th epoch marginal likelihood -26.14802619726747
+400 -th epoch marginal likelihood -28.504245367756774
+450 -th epoch marginal likelihood -30.39540015680613
+500 -th epoch marginal likelihood -31.929074036441236
+Done
+
+Proposals
+###
+number = 1
+actions =  557
+proposal =  [ 1.55    1.4     7.      3.44    1.     29.      3.     15.5322  2.6711]
+###
+Finish selection of proposals!
+  Querying: MnPO4 (mp-766455_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 72315.59it/s]
+  avg_voltage = 4.6083 V    max_ΔV = 0.0117
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 18/80 [PHYSBO] (867 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 45.92091087527893
+50 -th epoch marginal likelihood 41.715336883318486
+100 -th epoch marginal likelihood 38.87027817810486
+150 -th epoch marginal likelihood 36.939023024566694
+200 -th epoch marginal likelihood 35.59808833164196
+250 -th epoch marginal likelihood 34.64324412013849
+300 -th epoch marginal likelihood 33.9426419404177
+350 -th epoch marginal likelihood 33.40971772424612
+400 -th epoch marginal likelihood 32.98719605698797
+450 -th epoch marginal likelihood 32.63722772398453
+500 -th epoch marginal likelihood 32.335060607935276
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 12.558057286165706
+50 -th epoch marginal likelihood -0.9907361673958235
+100 -th epoch marginal likelihood -10.721323185183806
+150 -th epoch marginal likelihood -17.77225248214775
+200 -th epoch marginal likelihood -22.993631514847124
+250 -th epoch marginal likelihood -26.934012462706406
+300 -th epoch marginal likelihood -29.956940816062605
+350 -th epoch marginal likelihood -32.30996699829183
+400 -th epoch marginal likelihood -34.1657260166273
+450 -th epoch marginal likelihood -35.6471643806226
+500 -th epoch marginal likelihood -36.84347753139118
+Done
+
+Proposals
+###
+number = 1
+actions =  611
+proposal =  [ 1.55    1.4     7.      3.44    1.      2.      1.     11.9509  3.1815]
+###
+Finish selection of proposals!
+  Querying: NaMnP2O7 (mp-775876_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 3.3528 V    max_ΔV = 0.0889
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 19/80 [PHYSBO] (866 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 64.6594590265987
+50 -th epoch marginal likelihood 56.520934728956796
+100 -th epoch marginal likelihood 50.88045047050872
+150 -th epoch marginal likelihood 46.942033555015335
+200 -th epoch marginal likelihood 44.12814234619559
+250 -th epoch marginal likelihood 42.07790173009752
+300 -th epoch marginal likelihood 40.55765058893306
+350 -th epoch marginal likelihood 39.41106944306054
+400 -th epoch marginal likelihood 38.53116650298375
+450 -th epoch marginal likelihood 37.84338798626498
+500 -th epoch marginal likelihood 37.295006907920374
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 31.857176873858947
+50 -th epoch marginal likelihood 14.266709439799527
+100 -th epoch marginal likelihood 1.4639500219078627
+150 -th epoch marginal likelihood -7.913252598461106
+200 -th epoch marginal likelihood -14.915080105276502
+250 -th epoch marginal likelihood -20.23422938787367
+300 -th epoch marginal likelihood -24.337446104356154
+350 -th epoch marginal likelihood -27.546437199539668
+400 -th epoch marginal likelihood -30.08750063774268
+450 -th epoch marginal likelihood -32.12276994100963
+500 -th epoch marginal likelihood -33.77035427962066
+Done
+
+Proposals
+###
+number = 1
+actions =  314
+proposal =  [  1.55     1.4      7.       3.44     1.     141.       4.      14.2404
+   6.6247]
+###
+Finish selection of proposals!
+  Querying: La4MnO8 (mp-769598_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 74898.29it/s]
+  avg_voltage = 3.5252 V    max_ΔV = 0.0246
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 20/80 [PHYSBO] (865 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 74.64375898063366
+50 -th epoch marginal likelihood 64.62489191441527
+100 -th epoch marginal likelihood 57.55631428695714
+150 -th epoch marginal likelihood 52.537603017003946
+200 -th epoch marginal likelihood 48.89925198178897
+250 -th epoch marginal likelihood 46.2143670989762
+300 -th epoch marginal likelihood 44.201787683401506
+350 -th epoch marginal likelihood 42.67063019370343
+400 -th epoch marginal likelihood 41.48849266008695
+450 -th epoch marginal likelihood 40.56194743518738
+500 -th epoch marginal likelihood 39.824086836677104
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 34.32943601855497
+50 -th epoch marginal likelihood 15.773274425643052
+100 -th epoch marginal likelihood 2.2470364088972303
+150 -th epoch marginal likelihood -7.674462328456627
+200 -th epoch marginal likelihood -15.09227183904936
+250 -th epoch marginal likelihood -20.73388272181966
+300 -th epoch marginal likelihood -25.090281212775977
+350 -th epoch marginal likelihood -28.500391880480663
+400 -th epoch marginal likelihood -31.20294958877639
+450 -th epoch marginal likelihood -33.36920614163051
+500 -th epoch marginal likelihood -35.12404580631199
+Done
+
+Proposals
+###
+number = 1
+actions =  77
+proposal =  [ 1.66    1.4     6.      3.44    1.     19.      3.     12.4505  2.964 ]
+###
+Finish selection of proposals!
+  Querying: Cr(PO3)3 (mp-26111_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 2.8274 V    max_ΔV = 0.0280
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 21/80 [PHYSBO] (864 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 81.23623564170606
+50 -th epoch marginal likelihood 70.09406263048709
+100 -th epoch marginal likelihood 62.30319845731335
+150 -th epoch marginal likelihood 56.80712698530736
+200 -th epoch marginal likelihood 52.842613638532264
+250 -th epoch marginal likelihood 49.92531703028032
+300 -th epoch marginal likelihood 47.739774021120276
+350 -th epoch marginal likelihood 46.074987794640414
+400 -th epoch marginal likelihood 44.786481712040654
+450 -th epoch marginal likelihood 43.7732678008211
+500 -th epoch marginal likelihood 42.963479360784305
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 37.81601403697549
+50 -th epoch marginal likelihood 18.134956990993132
+100 -th epoch marginal likelihood 3.7111975124118715
+150 -th epoch marginal likelihood -6.916707539747563
+200 -th epoch marginal likelihood -14.890621778680774
+250 -th epoch marginal likelihood -20.971249067430755
+300 -th epoch marginal likelihood -25.675639787975868
+350 -th epoch marginal likelihood -29.36290452678623
+400 -th epoch marginal likelihood -32.287338166414344
+450 -th epoch marginal likelihood -34.63217996081683
+500 -th epoch marginal likelihood -36.531564588109745
+Done
+
+Proposals
+###
+number = 1
+actions =  13
+proposal =  [ 1.88    1.35    3.      3.44   14.      2.      1.     11.4263  4.3035]
+###
+Finish selection of proposals!
+  Querying: Co13O28 (mp-758645_Li)  [TM=Co]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 74898.29it/s]
+  avg_voltage = 3.7750 V    max_ΔV = 0.0211
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 22/80 [PHYSBO] (863 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 92.0293389205191
+50 -th epoch marginal likelihood 78.80866738455148
+100 -th epoch marginal likelihood 69.44392599179326
+150 -th epoch marginal likelihood 62.76346759182148
+200 -th epoch marginal likelihood 57.89846787358496
+250 -th epoch marginal likelihood 54.288994905349206
+300 -th epoch marginal likelihood 51.56581373799649
+350 -th epoch marginal likelihood 49.479435249161895
+400 -th epoch marginal likelihood 47.857548865842475
+450 -th epoch marginal likelihood 46.578796235241704
+500 -th epoch marginal likelihood 45.556207447196385
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 22.454611393725685
+50 -th epoch marginal likelihood 5.16971461969321
+100 -th epoch marginal likelihood -7.327403294362938
+150 -th epoch marginal likelihood -16.426550539299342
+200 -th epoch marginal likelihood -23.186403649500157
+250 -th epoch marginal likelihood -28.29936727493301
+300 -th epoch marginal likelihood -32.22872985115219
+350 -th epoch marginal likelihood -35.291952374978294
+400 -th epoch marginal likelihood -37.71125230730376
+450 -th epoch marginal likelihood -39.64518106425322
+500 -th epoch marginal likelihood -41.208830296140704
+Done
+
+Proposals
+###
+number = 1
+actions =  264
+proposal =  [ 1.83    1.4     3.      3.44    3.     11.      2.     15.0003  2.8071]
+###
+Finish selection of proposals!
+  Querying: FeBAsO7 (mp-771029_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 4.0180 V    max_ΔV = 0.0429
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 23/80 [PHYSBO] (862 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 97.43042084110891
+50 -th epoch marginal likelihood 83.02479229293566
+100 -th epoch marginal likelihood 72.8190837645482
+150 -th epoch marginal likelihood 65.53836248149068
+200 -th epoch marginal likelihood 60.238616401155
+250 -th epoch marginal likelihood 56.3103693726447
+300 -th epoch marginal likelihood 53.35057192005783
+350 -th epoch marginal likelihood 51.08654733278182
+400 -th epoch marginal likelihood 49.32994519834482
+450 -th epoch marginal likelihood 47.948183907188756
+500 -th epoch marginal likelihood 46.84633643210757
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 43.53939495210517
+50 -th epoch marginal likelihood 21.261331837368715
+100 -th epoch marginal likelihood 4.989631723741709
+150 -th epoch marginal likelihood -6.9473858436325315
+200 -th epoch marginal likelihood -15.861568162411736
+250 -th epoch marginal likelihood -22.62801570446082
+300 -th epoch marginal likelihood -27.840689170889256
+350 -th epoch marginal likelihood -31.910724266620704
+400 -th epoch marginal likelihood -35.12791651528213
+450 -th epoch marginal likelihood -37.69999224735864
+500 -th epoch marginal likelihood -39.778185241823515
+Done
+
+Proposals
+###
+number = 1
+actions =  310
+proposal =  [ 1.58    1.4     4.6667  3.44    1.      4.      2.     12.6098  5.3571]
+###
+Finish selection of proposals!
+  Querying: La2Ti2CrO9 (mp-766086_Li)  [TM=Ti]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 3.5905 V    max_ΔV = 0.0085
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 24/80 [PHYSBO] (861 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 102.30265622433919
+50 -th epoch marginal likelihood 87.00206938243953
+100 -th epoch marginal likelihood 76.1410790167808
+150 -th epoch marginal likelihood 68.38169294989012
+200 -th epoch marginal likelihood 62.72677919253247
+250 -th epoch marginal likelihood 58.53147126756831
+300 -th epoch marginal likelihood 55.368177642985096
+350 -th epoch marginal likelihood 52.947058278755506
+400 -th epoch marginal likelihood 51.06765286841094
+450 -th epoch marginal likelihood 49.58873525227344
+500 -th epoch marginal likelihood 48.40912770239311
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 42.15492603029449
+50 -th epoch marginal likelihood 19.65942110966064
+100 -th epoch marginal likelihood 3.2582048936147316
+150 -th epoch marginal likelihood -8.751499780091336
+200 -th epoch marginal likelihood -17.704766012272557
+250 -th epoch marginal likelihood -24.490914247547863
+300 -th epoch marginal likelihood -29.712397721176394
+350 -th epoch marginal likelihood -33.785350283851294
+400 -th epoch marginal likelihood -37.00247671989372
+450 -th epoch marginal likelihood -39.57318050435401
+500 -th epoch marginal likelihood -41.64965256705662
+Done
+
+Proposals
+###
+number = 1
+actions =  635
+proposal =  [ 1.91    1.35    2.      3.44    6.     70.      3.     13.1818  2.4838]
+###
+Finish selection of proposals!
+  Querying: Ni2C4SO16 (mp-776423_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 79137.81it/s]
+  avg_voltage = 4.8072 V    max_ΔV = 0.0605
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 25/80 [PHYSBO] (860 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 100.8296980805698
+50 -th epoch marginal likelihood 86.06254380784965
+100 -th epoch marginal likelihood 75.62758770428366
+150 -th epoch marginal likelihood 68.20520539937986
+200 -th epoch marginal likelihood 62.818849069204546
+250 -th epoch marginal likelihood 58.83783406004716
+300 -th epoch marginal likelihood 55.846047421181666
+350 -th epoch marginal likelihood 53.562678796376986
+400 -th epoch marginal likelihood 51.79425176049395
+450 -th epoch marginal likelihood 50.40492009658006
+500 -th epoch marginal likelihood 49.29766369716688
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 63.54773011420029
+50 -th epoch marginal likelihood 36.86582936416201
+100 -th epoch marginal likelihood 17.03243134760234
+150 -th epoch marginal likelihood 2.2638228366724036
+200 -th epoch marginal likelihood -8.894360989997466
+250 -th epoch marginal likelihood -17.440321426505747
+300 -th epoch marginal likelihood -24.06843121784864
+350 -th epoch marginal likelihood -29.2694256884853
+400 -th epoch marginal likelihood -33.39521681834549
+450 -th epoch marginal likelihood -36.70161210445066
+500 -th epoch marginal likelihood -39.37694204080108
+Done
+
+Proposals
+###
+number = 1
+actions =  166
+proposal =  [ 1.55    1.4     7.      3.44    1.      5.      2.     15.2082  3.0147]
+###
+Finish selection of proposals!
+  Querying: CsMnP3HO10 (mp-23871_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 2.6125 V    max_ΔV = 0.0801
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 26/80 [PHYSBO] (859 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 167.25440195183057
+50 -th epoch marginal likelihood 140.77052262955763
+100 -th epoch marginal likelihood 121.24650379721939
+150 -th epoch marginal likelihood 106.78112902903926
+200 -th epoch marginal likelihood 95.87305507450962
+250 -th epoch marginal likelihood 87.51434008241498
+300 -th epoch marginal likelihood 81.01619485762684
+350 -th epoch marginal likelihood 75.89845450610756
+400 -th epoch marginal likelihood 71.82019448877107
+450 -th epoch marginal likelihood 68.5352202320613
+500 -th epoch marginal likelihood 65.86294174286837
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 60.76386427491937
+50 -th epoch marginal likelihood 33.92229392801045
+100 -th epoch marginal likelihood 14.26716457698052
+150 -th epoch marginal likelihood -0.19021394789777446
+200 -th epoch marginal likelihood -11.016446850549698
+250 -th epoch marginal likelihood -19.258938416701028
+300 -th epoch marginal likelihood -25.629461149818425
+350 -th epoch marginal likelihood -30.620965570042273
+400 -th epoch marginal likelihood -34.58098734276568
+450 -th epoch marginal likelihood -37.758676943266806
+500 -th epoch marginal likelihood -40.33547756560151
+Done
+
+Proposals
+###
+number = 1
+actions =  875
+proposal =  [ 1.63    1.35    5.      3.98    5.      7.      2.     14.3958  2.4745]
+###
+Finish selection of proposals!
+  Querying: VP2(O4F)2 (mp-554656_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 3.8240 V    max_ΔV = 0.0077
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0012    (MnPO5)
+
+── Cycle 27/80 [PHYSBO] (858 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 176.76453834635356
+50 -th epoch marginal likelihood 148.61541888317785
+100 -th epoch marginal likelihood 127.82762685465651
+150 -th epoch marginal likelihood 112.38030047245456
+200 -th epoch marginal likelihood 100.7039361183962
+250 -th epoch marginal likelihood 91.73907953524382
+300 -th epoch marginal likelihood 84.75846261988866
+350 -th epoch marginal likelihood 79.25326046408897
+400 -th epoch marginal likelihood 74.86112886897827
+450 -th epoch marginal likelihood 71.3197705624284
+500 -th epoch marginal likelihood 68.43640335734995
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 74.72666506970418
+50 -th epoch marginal likelihood 44.943207769565475
+100 -th epoch marginal likelihood 22.90756938436509
+150 -th epoch marginal likelihood 6.557557766281519
+200 -th epoch marginal likelihood -5.768138831302352
+250 -th epoch marginal likelihood -15.19912125600132
+300 -th epoch marginal likelihood -22.514482444021127
+350 -th epoch marginal likelihood -28.26065174913741
+400 -th epoch marginal likelihood -32.82690874955652
+450 -th epoch marginal likelihood -36.494680982963345
+500 -th epoch marginal likelihood -39.470266623495476
+Done
+
+Proposals
+###
+number = 1
+actions =  622
+proposal =  [ 1.91    1.35    2.      3.44    4.     12.      2.     12.4132  4.4254]
+###
+Finish selection of proposals!
+  Querying: NbNi3O8 (mp-754424_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 62601.55it/s]
+  avg_voltage = 3.8357 V    max_ΔV = 0.0002
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 28/80 [PHYSBO] (857 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 184.5919071742674
+50 -th epoch marginal likelihood 154.75922777207248
+100 -th epoch marginal likelihood 132.78844987900905
+150 -th epoch marginal likelihood 116.51664602200107
+200 -th epoch marginal likelihood 104.24569581817275
+250 -th epoch marginal likelihood 94.83941231052485
+300 -th epoch marginal likelihood 87.5229719238491
+350 -th epoch marginal likelihood 81.75691909722165
+400 -th epoch marginal likelihood 77.15853518806296
+450 -th epoch marginal likelihood 73.45158421362409
+500 -th epoch marginal likelihood 70.43350656328221
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 82.54134188069976
+50 -th epoch marginal likelihood 50.48970629257927
+100 -th epoch marginal likelihood 26.90351032535787
+150 -th epoch marginal likelihood 9.454974216858673
+200 -th epoch marginal likelihood -3.683124532892151
+250 -th epoch marginal likelihood -13.73452354724408
+300 -th epoch marginal likelihood -21.53503197975178
+350 -th epoch marginal likelihood -27.66735268661006
+400 -th epoch marginal likelihood -32.54519501801515
+450 -th epoch marginal likelihood -36.46714787131486
+500 -th epoch marginal likelihood -39.65196978846258
+Done
+
+Proposals
+###
+number = 1
+actions =  808
+proposal =  [ 1.63    1.35    5.      3.44   19.     11.      2.     13.0287  3.2537]
+###
+Finish selection of proposals!
+  Querying: V3O8 (mp-27503_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 64527.75it/s]
+  avg_voltage = 2.7555 V    max_ΔV = 0.0166
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 29/80 [PHYSBO] (856 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 161.30458989765603
+50 -th epoch marginal likelihood 136.15451438588934
+100 -th epoch marginal likelihood 117.87235065063012
+150 -th epoch marginal likelihood 104.4897401048838
+200 -th epoch marginal likelihood 94.49635605599124
+250 -th epoch marginal likelihood 86.89944193050178
+300 -th epoch marginal likelihood 81.0322568060136
+350 -th epoch marginal likelihood 76.43657273678451
+400 -th epoch marginal likelihood 72.7907997142298
+450 -th epoch marginal likelihood 69.86489457162077
+500 -th epoch marginal likelihood 67.491414617952
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 112.36639910465925
+50 -th epoch marginal likelihood 74.54360939670397
+100 -th epoch marginal likelihood 46.320681978844505
+150 -th epoch marginal likelihood 25.16961169173912
+200 -th epoch marginal likelihood 9.06617686144682
+250 -th epoch marginal likelihood -3.367693908142357
+300 -th epoch marginal likelihood -13.089130219449132
+350 -th epoch marginal likelihood -20.77645136792495
+400 -th epoch marginal likelihood -26.918704179328586
+450 -th epoch marginal likelihood -31.873762012308433
+500 -th epoch marginal likelihood -35.90698609872825
+Done
+
+Proposals
+###
+number = 1
+actions =  407
+proposal =  [ 1.55   1.4    7.     3.44   4.     8.     2.    11.634  5.154]
+###
+Finish selection of proposals!
+  Querying: Mn3Cu3(TeO8)2 (mp-757393_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 3.9879 V    max_ΔV = 0.0909
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 30/80 [PHYSBO] (855 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 195.98052853332393
+50 -th epoch marginal likelihood 164.2944537877203
+100 -th epoch marginal likelihood 140.86485502446703
+150 -th epoch marginal likelihood 123.47125533782872
+200 -th epoch marginal likelihood 110.34488211173147
+250 -th epoch marginal likelihood 100.28871315770921
+300 -th epoch marginal likelihood 92.4787550830653
+350 -th epoch marginal likelihood 86.33722108161962
+400 -th epoch marginal likelihood 81.45216541134462
+450 -th epoch marginal likelihood 77.52535554010171
+500 -th epoch marginal likelihood 74.33778834101632
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 155.04808988805823
+50 -th epoch marginal likelihood 107.88821612151423
+100 -th epoch marginal likelihood 72.28030275457473
+150 -th epoch marginal likelihood 45.41555819877033
+200 -th epoch marginal likelihood 24.91742352088596
+250 -th epoch marginal likelihood 9.107745197171283
+300 -th epoch marginal likelihood -3.211507963498647
+350 -th epoch marginal likelihood -12.90621715017626
+400 -th epoch marginal likelihood -20.60875651815634
+450 -th epoch marginal likelihood -26.78526549445222
+500 -th epoch marginal likelihood -31.782350299282292
+Done
+
+Proposals
+###
+number = 1
+actions =  107
+proposal =  [  1.715    1.3875   5.25     3.44     7.     146.       5.      13.3186
+   2.8777]
+###
+Finish selection of proposals!
+  Querying: Cr3Co(PO4)6 (mp-757861_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 4.2861 V    max_ΔV = 0.0442
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 31/80 [PHYSBO] (854 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 247.50256116792394
+50 -th epoch marginal likelihood 206.861839332405
+100 -th epoch marginal likelihood 176.2309910647038
+150 -th epoch marginal likelihood 153.06697405010178
+200 -th epoch marginal likelihood 135.2959348213994
+250 -th epoch marginal likelihood 121.48705807555643
+300 -th epoch marginal likelihood 110.6344075447163
+350 -th epoch marginal likelihood 102.0168920485072
+400 -th epoch marginal likelihood 95.10908791716723
+450 -th epoch marginal likelihood 89.52278122945634
+500 -th epoch marginal likelihood 84.96764321089634
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 112.43655484047883
+50 -th epoch marginal likelihood 71.80181677299768
+100 -th epoch marginal likelihood 41.89523438411257
+150 -th epoch marginal likelihood 19.84195696164005
+200 -th epoch marginal likelihood 3.324448306159127
+250 -th epoch marginal likelihood -9.231915597812602
+300 -th epoch marginal likelihood -18.91045934053932
+350 -th epoch marginal likelihood -26.46803092208357
+400 -th epoch marginal likelihood -32.44112706989659
+450 -th epoch marginal likelihood -37.21536373735236
+500 -th epoch marginal likelihood -41.07162884256778
+Done
+
+Proposals
+###
+number = 1
+actions =  313
+proposal =  [ 1.83    1.4     3.      3.44    1.     65.      3.     14.2546  6.6262]
+###
+Finish selection of proposals!
+  Querying: La4FeO8 (mp-754261_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 72315.59it/s]
+  avg_voltage = 3.3679 V    max_ΔV = 0.0244
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 32/80 [PHYSBO] (853 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 214.62780011484142
+50 -th epoch marginal likelihood 179.6315241974056
+100 -th epoch marginal likelihood 153.690472284996
+150 -th epoch marginal likelihood 134.3824973873273
+200 -th epoch marginal likelihood 119.77489162545334
+250 -th epoch marginal likelihood 108.55826153353917
+300 -th epoch marginal likelihood 99.82935586648193
+350 -th epoch marginal likelihood 92.95308836478716
+400 -th epoch marginal likelihood 87.47533203180174
+450 -th epoch marginal likelihood 83.06637747931393
+500 -th epoch marginal likelihood 79.48347642537091
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 218.78448855247927
+50 -th epoch marginal likelihood 161.0140367059367
+100 -th epoch marginal likelihood 116.25278742626388
+150 -th epoch marginal likelihood 81.61672079160711
+200 -th epoch marginal likelihood 54.584219616759
+250 -th epoch marginal likelihood 33.32688457545679
+300 -th epoch marginal likelihood 16.497849545711617
+350 -th epoch marginal likelihood 3.089138841337572
+400 -th epoch marginal likelihood -7.662291557262208
+450 -th epoch marginal likelihood -16.338593163357118
+500 -th epoch marginal likelihood -23.38628408121177
+Done
+
+Proposals
+###
+number = 1
+actions =  646
+proposal =  [ 1.91    1.35    2.      3.44    2.     15.      2.     13.7375  3.1463]
+###
+Finish selection of proposals!
+  Querying: Ni4P4O15 (mp-585202_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 74898.29it/s]
+  avg_voltage = 4.4405 V    max_ΔV = 0.0212
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 33/80 [PHYSBO] (852 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 263.9662860545181
+50 -th epoch marginal likelihood 220.24238940251257
+100 -th epoch marginal likelihood 187.24719769842284
+150 -th epoch marginal likelihood 162.28591491198054
+200 -th epoch marginal likelihood 143.14259481958567
+250 -th epoch marginal likelihood 128.27950407225117
+300 -th epoch marginal likelihood 116.61136417519398
+350 -th epoch marginal likelihood 107.35831945881128
+400 -th epoch marginal likelihood 99.95136775695812
+450 -th epoch marginal likelihood 93.9698891959139
+500 -th epoch marginal likelihood 89.09936776760786
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 164.307850904407
+50 -th epoch marginal likelihood 113.72227164752323
+100 -th epoch marginal likelihood 75.55051671366928
+150 -th epoch marginal likelihood 46.763637363691686
+200 -th epoch marginal likelihood 24.804879229233592
+250 -th epoch marginal likelihood 7.8715860082125175
+300 -th epoch marginal likelihood -5.3217919996311736
+350 -th epoch marginal likelihood -15.703719611702056
+400 -th epoch marginal likelihood -23.95195062754108
+450 -th epoch marginal likelihood -30.56591768392417
+500 -th epoch marginal likelihood -35.916908801797184
+Done
+
+Proposals
+###
+number = 1
+actions =  340
+proposal =  [  1.55     1.4      7.       3.44     1.     130.       4.      14.4467
+   2.5078]
+###
+Finish selection of proposals!
+  Querying: Mn(Si2O5)2 (mp-849757_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 5.0401 V    max_ΔV = 0.0860
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 34/80 [PHYSBO] (851 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 196.2360757190578
+50 -th epoch marginal likelihood 164.30732195867355
+100 -th epoch marginal likelihood 141.01848396004092
+150 -th epoch marginal likelihood 123.96551354980606
+200 -th epoch marginal likelihood 111.25674410120908
+250 -th epoch marginal likelihood 101.62965065232252
+300 -th epoch marginal likelihood 94.22757421584456
+350 -th epoch marginal likelihood 88.45830905323257
+400 -th epoch marginal likelihood 83.90528898617376
+450 -th epoch marginal likelihood 80.27064235686268
+500 -th epoch marginal likelihood 77.3380409279703
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 227.70601352938758
+50 -th epoch marginal likelihood 163.81846221268717
+100 -th epoch marginal likelihood 115.42113690721462
+150 -th epoch marginal likelihood 78.81805824094528
+200 -th epoch marginal likelihood 50.83622308504195
+250 -th epoch marginal likelihood 29.218174847125425
+300 -th epoch marginal likelihood 12.34573223425636
+350 -th epoch marginal likelihood -0.9531965147424586
+400 -th epoch marginal likelihood -11.535742005752539
+450 -th epoch marginal likelihood -20.03437005718345
+500 -th epoch marginal likelihood -26.91983791728974
+Done
+
+Proposals
+###
+number = 1
+actions =  189
+proposal =  [ 1.83    1.4     3.      3.44    6.     70.      3.     13.3967  2.4132]
+###
+Finish selection of proposals!
+  Querying: Fe2C4SO16 (mp-770599_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 82241.25it/s]
+  avg_voltage = 3.4885 V    max_ΔV = 0.0357
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 35/80 [PHYSBO] (850 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 243.44066981896262
+50 -th epoch marginal likelihood 202.89587335246614
+100 -th epoch marginal likelihood 172.71810105525245
+150 -th epoch marginal likelihood 150.20570471137577
+200 -th epoch marginal likelihood 133.16550046378006
+250 -th epoch marginal likelihood 120.09301843475603
+300 -th epoch marginal likelihood 109.94024116099433
+350 -th epoch marginal likelihood 101.96483906300776
+400 -th epoch marginal likelihood 95.63321722247751
+450 -th epoch marginal likelihood 90.55667440006476
+500 -th epoch marginal likelihood 86.44853544418469
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 239.0911506935622
+50 -th epoch marginal likelihood 172.5760547519231
+100 -th epoch marginal likelihood 122.07552353380801
+150 -th epoch marginal likelihood 83.81000122082584
+200 -th epoch marginal likelihood 54.51619690004874
+250 -th epoch marginal likelihood 31.862435098915157
+300 -th epoch marginal likelihood 14.170719869257397
+350 -th epoch marginal likelihood 0.2214462439521725
+400 -th epoch marginal likelihood -10.879802033918239
+450 -th epoch marginal likelihood -19.794483709912427
+500 -th epoch marginal likelihood -27.01576563675448
+Done
+
+Proposals
+###
+number = 1
+actions =  579
+proposal =  [ 2.16    1.45    6.      3.44    3.     12.      2.     13.1463  3.5426]
+###
+Finish selection of proposals!
+  Querying: Mo2(PO4)3 (mp-26535_Li)  [TM=Mo]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 3.5325 V    max_ΔV = 0.0037
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 36/80 [PHYSBO] (849 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 246.8269336561179
+50 -th epoch marginal likelihood 205.66934468738165
+100 -th epoch marginal likelihood 175.04262167969299
+150 -th epoch marginal likelihood 152.20262326568746
+200 -th epoch marginal likelihood 134.92030635304246
+250 -th epoch marginal likelihood 121.66682299297757
+300 -th epoch marginal likelihood 111.37736883181313
+350 -th epoch marginal likelihood 103.29785913975084
+400 -th epoch marginal likelihood 96.88633822270975
+450 -th epoch marginal likelihood 91.74807315993576
+500 -th epoch marginal likelihood 87.59198066329425
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 229.77049399193322
+50 -th epoch marginal likelihood 164.28294890711257
+100 -th epoch marginal likelihood 114.71326694282749
+150 -th epoch marginal likelihood 77.2578163597031
+200 -th epoch marginal likelihood 48.65262155755602
+250 -th epoch marginal likelihood 26.57595509801007
+300 -th epoch marginal likelihood 9.363983561808823
+350 -th epoch marginal likelihood -4.1879629172524915
+400 -th epoch marginal likelihood -14.960327105001923
+450 -th epoch marginal likelihood -23.602305013392396
+500 -th epoch marginal likelihood -30.596710588606214
+Done
+
+Proposals
+###
+number = 1
+actions =  659
+proposal =  [ 1.91    1.35    2.      3.44    1.     64.      3.     12.0025  4.1824]
+###
+Finish selection of proposals!
+  Querying: NiO2 (mp-755410_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 4.0992 V    max_ΔV = 0.0269
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 37/80 [PHYSBO] (848 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 243.91297281924423
+50 -th epoch marginal likelihood 203.1600849739415
+100 -th epoch marginal likelihood 172.97348516465476
+150 -th epoch marginal likelihood 150.5539112897225
+200 -th epoch marginal likelihood 133.64825185091306
+250 -th epoch marginal likelihood 120.72067442723052
+300 -th epoch marginal likelihood 110.70751742442528
+350 -th epoch marginal likelihood 102.8594939728323
+400 -th epoch marginal likelihood 96.64069042237267
+450 -th epoch marginal likelihood 91.66242456154919
+500 -th epoch marginal likelihood 87.63910557924507
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 234.0662415600401
+50 -th epoch marginal likelihood 167.1752703524575
+100 -th epoch marginal likelihood 116.54359598167142
+150 -th epoch marginal likelihood 78.28579913476415
+200 -th epoch marginal likelihood 49.068018750741146
+250 -th epoch marginal likelihood 26.518882956134746
+300 -th epoch marginal likelihood 8.938971297554673
+350 -th epoch marginal likelihood -4.902185218142762
+400 -th epoch marginal likelihood -15.903918793667202
+450 -th epoch marginal likelihood -24.72938107777685
+500 -th epoch marginal likelihood -31.87178480013614
+Done
+
+Proposals
+###
+number = 1
+actions =  865
+proposal =  [ 1.84    1.35    2.75    3.44    8.      1.      1.     13.7091  2.8388]
+###
+Finish selection of proposals!
+  Querying: VNi3(PO4)6 (mp-759133_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 4.1887 V    max_ΔV = 0.0131
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 38/80 [PHYSBO] (847 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 275.9880044138489
+50 -th epoch marginal likelihood 229.74252910910315
+100 -th epoch marginal likelihood 195.05587714828062
+150 -th epoch marginal likelihood 168.99361134086732
+200 -th epoch marginal likelihood 149.145239540176
+250 -th epoch marginal likelihood 133.84185845398406
+300 -th epoch marginal likelihood 121.90944563962566
+350 -th epoch marginal likelihood 112.50825436439459
+400 -th epoch marginal likelihood 105.0290539601005
+450 -th epoch marginal likelihood 99.02431855744122
+500 -th epoch marginal likelihood 94.16158724711008
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 248.89848042177516
+50 -th epoch marginal likelihood 179.18749057862186
+100 -th epoch marginal likelihood 126.1450831417896
+150 -th epoch marginal likelihood 85.87537193925209
+200 -th epoch marginal likelihood 55.00106694807272
+250 -th epoch marginal likelihood 31.100601910294642
+300 -th epoch marginal likelihood 12.424750989405254
+350 -th epoch marginal likelihood -2.302586301676598
+400 -th epoch marginal likelihood -14.020466823571894
+450 -th epoch marginal likelihood -23.4254312870915
+500 -th epoch marginal likelihood -31.03807501602786
+Done
+
+Proposals
+###
+number = 1
+actions =  855
+proposal =  [  1.78     1.3875   3.5      3.44     6.     146.       5.      13.9655
+   2.7568]
+###
+Finish selection of proposals!
+  Querying: VFe3(PO4)6 (mp-757753_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 4.2151 V    max_ΔV = 0.0137
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 39/80 [PHYSBO] (846 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 252.71145440854733
+50 -th epoch marginal likelihood 210.31852208042665
+100 -th epoch marginal likelihood 178.9315772751854
+150 -th epoch marginal likelihood 155.63615007476824
+200 -th epoch marginal likelihood 138.08195637433707
+250 -th epoch marginal likelihood 124.66761763314717
+300 -th epoch marginal likelihood 114.28482975054818
+350 -th epoch marginal likelihood 106.15308370315071
+400 -th epoch marginal likelihood 99.71424182902969
+450 -th epoch marginal likelihood 94.56361821637846
+500 -th epoch marginal likelihood 90.40398567927241
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 234.42720461974048
+50 -th epoch marginal likelihood 166.11614063873873
+100 -th epoch marginal likelihood 114.59825659512504
+150 -th epoch marginal likelihood 75.78640925162657
+200 -th epoch marginal likelihood 46.21096469606064
+250 -th epoch marginal likelihood 23.422138219796665
+300 -th epoch marginal likelihood 5.674963161252464
+350 -th epoch marginal likelihood -8.287790559672331
+400 -th epoch marginal likelihood -19.381393400066514
+450 -th epoch marginal likelihood -28.278650387912535
+500 -th epoch marginal likelihood -35.47874969973165
+Done
+
+Proposals
+###
+number = 1
+actions =  593
+proposal =  [ 2.16    1.45    6.      3.44    4.      1.      1.     15.4968  2.6957]
+###
+Finish selection of proposals!
+  Querying: MoP2O9 (mp-25974_Li)  [TM=Mo]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 68759.08it/s]
+  avg_voltage = 3.3631 V    max_ΔV = 0.0173
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 40/80 [PHYSBO] (845 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 296.39465089156124
+50 -th epoch marginal likelihood 246.70725209262312
+100 -th epoch marginal likelihood 209.28204828095159
+150 -th epoch marginal likelihood 181.03992688329384
+200 -th epoch marginal likelihood 159.44511580904737
+250 -th epoch marginal likelihood 142.73763100857803
+300 -th epoch marginal likelihood 129.67417333489442
+350 -th epoch marginal likelihood 119.36051395931386
+400 -th epoch marginal likelihood 111.14388135820859
+450 -th epoch marginal likelihood 104.54179745371286
+500 -th epoch marginal likelihood 99.19378793877726
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 246.54712976664368
+50 -th epoch marginal likelihood 175.7023272346111
+100 -th epoch marginal likelihood 122.08496883033735
+150 -th epoch marginal likelihood 81.56183583275322
+200 -th epoch marginal likelihood 50.60058720465162
+250 -th epoch marginal likelihood 26.694121540259033
+300 -th epoch marginal likelihood 8.047376258090594
+350 -th epoch marginal likelihood -6.639368838081452
+400 -th epoch marginal likelihood -18.316577618910316
+450 -th epoch marginal likelihood -27.685667289643703
+500 -th epoch marginal likelihood -35.26876463024655
+Done
+
+Proposals
+###
+number = 1
+actions =  265
+proposal =  [ 1.83    1.4     3.      3.44    3.      1.      1.     12.2227  3.1153]
+###
+Finish selection of proposals!
+  Querying: FeBO3 (mp-758730_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 67650.06it/s]
+  avg_voltage = 3.0889 V    max_ΔV = 0.0106
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 41/80 [PHYSBO] (844 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 377.8540775377575
+50 -th epoch marginal likelihood 313.36336507930315
+100 -th epoch marginal likelihood 264.02185245118045
+150 -th epoch marginal likelihood 226.30788906983284
+200 -th epoch marginal likelihood 197.18972868392842
+250 -th epoch marginal likelihood 174.49682565496147
+300 -th epoch marginal likelihood 156.65573063482043
+350 -th epoch marginal likelihood 142.51068632057823
+400 -th epoch marginal likelihood 131.20388871708155
+450 -th epoch marginal likelihood 122.09328014045597
+500 -th epoch marginal likelihood 114.69474306487575
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 241.0088908511276
+50 -th epoch marginal likelihood 170.37352588284912
+100 -th epoch marginal likelihood 117.00893061007912
+150 -th epoch marginal likelihood 76.74816669366402
+200 -th epoch marginal likelihood 46.03734492479293
+250 -th epoch marginal likelihood 22.35883428116611
+300 -th epoch marginal likelihood 3.913897499050819
+350 -th epoch marginal likelihood -10.596989546183025
+400 -th epoch marginal likelihood -22.12217145922753
+450 -th epoch marginal likelihood -31.36019619084834
+500 -th epoch marginal likelihood -38.83021845810097
+Done
+
+Proposals
+###
+number = 1
+actions =  305
+proposal =  [  2.16     1.45     6.       3.44     3.     230.       7.      13.9754
+   4.2061]
+###
+Finish selection of proposals!
+  Querying: Ge3(MoO6)2 (mp-1013795_Li)  [TM=Mo]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 3.3720 V    max_ΔV = 0.0024
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 42/80 [PHYSBO] (843 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 412.3660956580021
+50 -th epoch marginal likelihood 342.91781347675214
+100 -th epoch marginal likelihood 289.21210114750227
+150 -th epoch marginal likelihood 247.72946477357036
+200 -th epoch marginal likelihood 215.39971166921214
+250 -th epoch marginal likelihood 190.0013008895315
+300 -th epoch marginal likelihood 169.90284167300868
+350 -th epoch marginal likelihood 153.88822175225496
+400 -th epoch marginal likelihood 141.04079930742816
+450 -th epoch marginal likelihood 130.66414381856504
+500 -th epoch marginal likelihood 122.22598611299703
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 284.50860322614466
+50 -th epoch marginal likelihood 207.1000770215519
+100 -th epoch marginal likelihood 147.65270358600839
+150 -th epoch marginal likelihood 102.1119896103898
+200 -th epoch marginal likelihood 66.91884966733744
+250 -th epoch marginal likelihood 39.49473355962175
+300 -th epoch marginal likelihood 17.954208315575897
+350 -th epoch marginal likelihood 0.903457206740427
+400 -th epoch marginal likelihood -12.697010109197677
+450 -th epoch marginal likelihood -23.628016423406294
+500 -th epoch marginal likelihood -32.47973740087336
+Done
+
+Proposals
+###
+number = 1
+actions =  370
+proposal =  [ 1.55    1.4     7.      3.98    1.     62.      3.     12.6697  3.8636]
+###
+Finish selection of proposals!
+  Querying: Mn2O3F (mp-753835_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 74898.29it/s]
+  avg_voltage = 4.0499 V    max_ΔV = 0.0344
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 43/80 [PHYSBO] (842 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 439.4077057090288
+50 -th epoch marginal likelihood 365.98890843027624
+100 -th epoch marginal likelihood 308.8687431313417
+150 -th epoch marginal likelihood 264.4771861895139
+200 -th epoch marginal likelihood 229.68272331272158
+250 -th epoch marginal likelihood 202.20963776609977
+300 -th epoch marginal likelihood 180.3765434195329
+350 -th epoch marginal likelihood 162.92022201425553
+400 -th epoch marginal likelihood 148.87996985300677
+450 -th epoch marginal likelihood 137.5191085423827
+500 -th epoch marginal likelihood 128.26966038056673
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 320.9825865813506
+50 -th epoch marginal likelihood 237.6526823349587
+100 -th epoch marginal likelihood 173.0314022784803
+150 -th epoch marginal likelihood 123.05737703820361
+200 -th epoch marginal likelihood 84.11284752550833
+250 -th epoch marginal likelihood 53.54720034064647
+300 -th epoch marginal likelihood 29.397880814930687
+350 -th epoch marginal likelihood 10.194391382018722
+400 -th epoch marginal likelihood -5.175054879580927
+450 -th epoch marginal likelihood -17.55660146951712
+500 -th epoch marginal likelihood -27.597426983946065
+Done
+
+Proposals
+###
+number = 1
+actions =  154
+proposal =  [  1.66     1.4      6.       3.98     5.     143.       5.      14.9354
+   2.3941]
+###
+Finish selection of proposals!
+  Querying: CrP2(O4F)2 (mp-759047_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 77672.30it/s]
+  avg_voltage = 4.5189 V    max_ΔV = 0.0285
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 44/80 [PHYSBO] (841 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 442.70267226634803
+50 -th epoch marginal likelihood 368.89411392452445
+100 -th epoch marginal likelihood 311.4639038645773
+150 -th epoch marginal likelihood 266.82690668797295
+200 -th epoch marginal likelihood 231.83822141895598
+250 -th epoch marginal likelihood 204.2118547897054
+300 -th epoch marginal likelihood 182.25813712885412
+350 -th epoch marginal likelihood 164.7070510478792
+400 -th epoch marginal likelihood 150.59233268163382
+450 -th epoch marginal likelihood 139.172817055567
+500 -th epoch marginal likelihood 129.8769611796112
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 323.79614504264646
+50 -th epoch marginal likelihood 239.23093410791608
+100 -th epoch marginal likelihood 173.72813398225156
+150 -th epoch marginal likelihood 123.12925132339947
+200 -th epoch marginal likelihood 83.73655627862155
+250 -th epoch marginal likelihood 52.84450527631938
+300 -th epoch marginal likelihood 28.4529355051327
+350 -th epoch marginal likelihood 9.065705280599076
+400 -th epoch marginal likelihood -6.446366545306901
+450 -th epoch marginal likelihood -18.941187208006497
+500 -th epoch marginal likelihood -29.073907947405644
+Done
+
+Proposals
+###
+number = 1
+actions =  508
+proposal =  [ 1.55    1.4     7.      3.44   14.      2.      1.     13.9247  2.7766]
+###
+Finish selection of proposals!
+  Querying: Mn9(P2O7)8 (mp-504117_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 82241.25it/s]
+  avg_voltage = 4.1882 V    max_ΔV = 0.0218
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 45/80 [PHYSBO] (840 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 491.6522512346539
+50 -th epoch marginal likelihood 411.00802148011314
+100 -th epoch marginal likelihood 347.622756536661
+150 -th epoch marginal likelihood 297.82064952340966
+200 -th epoch marginal likelihood 258.3646394087981
+250 -th epoch marginal likelihood 226.89721516368144
+300 -th epoch marginal likelihood 201.66691950524006
+350 -th epoch marginal likelihood 181.34446460030645
+400 -th epoch marginal likelihood 164.90407971614587
+450 -th epoch marginal likelihood 151.5453543711917
+500 -th epoch marginal likelihood 140.6397725480268
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 296.90883184344136
+50 -th epoch marginal likelihood 215.32846312949408
+100 -th epoch marginal likelihood 152.76337947939322
+150 -th epoch marginal likelihood 104.9029833774434
+200 -th epoch marginal likelihood 67.96576236910394
+250 -th epoch marginal likelihood 39.21422319455007
+300 -th epoch marginal likelihood 16.649849670488265
+350 -th epoch marginal likelihood -1.2016001410705428
+400 -th epoch marginal likelihood -15.436925315806079
+450 -th epoch marginal likelihood -26.87799679426621
+500 -th epoch marginal likelihood -36.14463885653936
+Done
+
+Proposals
+###
+number = 1
+actions =  3
+proposal =  [ 1.83    1.4     3.      3.44    1.      6.      2.     12.0229  5.1746]
+###
+Finish selection of proposals!
+  Querying: Ca3Fe5Sn3O16 (mp-757114_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 65536.00it/s]
+  avg_voltage = 2.5757 V    max_ΔV = 0.0065
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 46/80 [PHYSBO] (839 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 474.19559736886583
+50 -th epoch marginal likelihood 395.01037468590107
+100 -th epoch marginal likelihood 333.44470621939706
+150 -th epoch marginal likelihood 285.56202285335985
+200 -th epoch marginal likelihood 247.96444386325143
+250 -th epoch marginal likelihood 218.21003186350757
+300 -th epoch marginal likelihood 194.50825589570994
+350 -th epoch marginal likelihood 175.51856974782487
+400 -th epoch marginal likelihood 160.2209959989345
+450 -th epoch marginal likelihood 147.83068402836525
+500 -th epoch marginal likelihood 137.73933260740785
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 357.60333117487573
+50 -th epoch marginal likelihood 267.22638902813
+100 -th epoch marginal likelihood 196.67105128292584
+150 -th epoch marginal likelihood 141.7469924639322
+200 -th epoch marginal likelihood 98.688465877758
+250 -th epoch marginal likelihood 64.71752205365536
+300 -th epoch marginal likelihood 37.76063472041193
+350 -th epoch marginal likelihood 16.250043431000137
+400 -th epoch marginal likelihood -1.0109512939673095
+450 -th epoch marginal likelihood -14.941811599321255
+500 -th epoch marginal likelihood -26.252087198401483
+Done
+
+Proposals
+###
+number = 1
+actions =  280
+proposal =  [  1.995    1.425    4.5      3.44     1.     129.       4.      18.4966
+   3.2221]
+###
+Finish selection of proposals!
+  Querying: FeMoClO4 (mp-23123_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 68759.08it/s]
+  avg_voltage = 3.4295 V    max_ΔV = 0.0059
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 47/80 [PHYSBO] (838 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 509.8943002388404
+50 -th epoch marginal likelihood 425.857514907299
+100 -th epoch marginal likelihood 360.0793869995594
+150 -th epoch marginal likelihood 308.5425539096239
+200 -th epoch marginal likelihood 267.7730762625007
+250 -th epoch marginal likelihood 235.27419536829058
+300 -th epoch marginal likelihood 209.21249617682685
+350 -th epoch marginal likelihood 188.2094107168026
+400 -th epoch marginal likelihood 171.2079055292204
+450 -th epoch marginal likelihood 157.38592573327756
+500 -th epoch marginal likelihood 146.09845707232307
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 336.1378184691522
+50 -th epoch marginal likelihood 248.1599048964229
+100 -th epoch marginal likelihood 179.89080027553203
+150 -th epoch marginal likelihood 127.06903712852596
+200 -th epoch marginal likelihood 85.89228046530775
+250 -th epoch marginal likelihood 53.57023984728812
+300 -th epoch marginal likelihood 28.03352695997711
+350 -th epoch marginal likelihood 7.7293263277748565
+400 -th epoch marginal likelihood -8.517758027745572
+450 -th epoch marginal likelihood -21.603040684879304
+500 -th epoch marginal likelihood -32.21168745824605
+Done
+
+Proposals
+###
+number = 1
+actions =  469
+proposal =  [ 1.655   1.4     5.5     3.44   10.      8.      2.     11.0139  4.3862]
+###
+Finish selection of proposals!
+  Querying: Mn5Fe3O16 (mp-759959_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 67650.06it/s]
+  avg_voltage = 3.0318 V    max_ΔV = 0.1944
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 48/80 [PHYSBO] (837 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 480.48561728477205
+50 -th epoch marginal likelihood 400.04004446322085
+100 -th epoch marginal likelihood 337.5654544738368
+150 -th epoch marginal likelihood 289.04158289035365
+200 -th epoch marginal likelihood 251.0008517485468
+250 -th epoch marginal likelihood 220.95006772986872
+300 -th epoch marginal likelihood 197.05928769899995
+350 -th epoch marginal likelihood 177.95724030218526
+400 -th epoch marginal likelihood 162.60029712993713
+450 -th epoch marginal likelihood 150.18589073124025
+500 -th epoch marginal likelihood 140.09287361244873
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 194.69215742924956
+50 -th epoch marginal likelihood 134.55126240621806
+100 -th epoch marginal likelihood 88.30336025600894
+150 -th epoch marginal likelihood 52.83602301023288
+200 -th epoch marginal likelihood 25.425436882741735
+250 -th epoch marginal likelihood 4.094818941634969
+300 -th epoch marginal likelihood -12.60960678492647
+350 -th epoch marginal likelihood -25.77127685342313
+400 -th epoch marginal likelihood -36.20536539499942
+450 -th epoch marginal likelihood -44.52930368198652
+500 -th epoch marginal likelihood -51.21301942516004
+Done
+
+Proposals
+###
+number = 1
+actions =  755
+proposal =  [ 1.63    1.35    5.      3.44    4.      3.      2.     13.4694  4.8214]
+###
+Finish selection of proposals!
+  Querying: V(TeO4)3 (mp-755674_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 65536.00it/s]
+  avg_voltage = 3.6370 V    max_ΔV = 0.0737
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 49/80 [PHYSBO] (836 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 518.0855765500554
+50 -th epoch marginal likelihood 432.38309500144226
+100 -th epoch marginal likelihood 365.3578503278745
+150 -th epoch marginal likelihood 312.89660964293114
+200 -th epoch marginal likelihood 271.4478506026226
+250 -th epoch marginal likelihood 238.45930849963315
+300 -th epoch marginal likelihood 212.05454030423036
+350 -th epoch marginal likelihood 190.81992397692645
+400 -th epoch marginal likelihood 173.66960095268874
+450 -th epoch marginal likelihood 159.75826374487318
+500 -th epoch marginal likelihood 148.42274868533661
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 211.29771286116568
+50 -th epoch marginal likelihood 148.60344720836116
+100 -th epoch marginal likelihood 100.05207379521215
+150 -th epoch marginal likelihood 62.537649308826616
+200 -th epoch marginal likelihood 33.3346679768772
+250 -th epoch marginal likelihood 10.458939274714737
+300 -th epoch marginal likelihood -7.557779358990501
+350 -th epoch marginal likelihood -21.819469093260054
+400 -th epoch marginal likelihood -33.16575024161119
+450 -th epoch marginal likelihood -42.23995901003559
+500 -th epoch marginal likelihood -49.53730513278359
+Done
+
+Proposals
+###
+number = 1
+actions =  673
+proposal =  [ 1.54    1.4     4.      3.44    1.     15.      2.     13.3603  2.6595]
+###
+Finish selection of proposals!
+  Querying: Ti(PO3)4 (mp-26409_Li)  [TM=Ti]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 68759.08it/s]
+  avg_voltage = 3.2354 V    max_ΔV = 0.0117
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 50/80 [PHYSBO] (835 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 513.8677606374026
+50 -th epoch marginal likelihood 427.4897314651526
+100 -th epoch marginal likelihood 360.37160493136196
+150 -th epoch marginal likelihood 308.1869140983375
+200 -th epoch marginal likelihood 267.2172889724544
+250 -th epoch marginal likelihood 234.80058393945532
+300 -th epoch marginal likelihood 208.98901525400447
+350 -th epoch marginal likelihood 188.32431628984702
+400 -th epoch marginal likelihood 171.69525274667194
+450 -th epoch marginal likelihood 158.24486707107573
+500 -th epoch marginal likelihood 147.30751446448485
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 188.55223405481877
+50 -th epoch marginal likelihood 128.42717726074562
+100 -th epoch marginal likelihood 82.32059425732098
+150 -th epoch marginal likelihood 47.05358544627296
+200 -th epoch marginal likelihood 19.861673507873377
+250 -th epoch marginal likelihood -1.2536557337229226
+300 -th epoch marginal likelihood -17.75733821652716
+350 -th epoch marginal likelihood -30.737872507793384
+400 -th epoch marginal likelihood -41.01193528299663
+450 -th epoch marginal likelihood -49.19644616192883
+500 -th epoch marginal likelihood -55.75977983356023
+Done
+
+Proposals
+###
+number = 1
+actions =  628
+proposal =  [ 1.91    1.35    2.      3.44    3.      4.      2.     12.9147  2.9063]
+###
+Finish selection of proposals!
+  Querying: Ni(PO4)2 (mp-32398_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 72315.59it/s]
+  avg_voltage = 4.9807 V    max_ΔV = 0.0115
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 51/80 [PHYSBO] (834 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 494.035858709422
+50 -th epoch marginal likelihood 411.0261974138678
+100 -th epoch marginal likelihood 346.6663315521596
+150 -th epoch marginal likelihood 296.746109664082
+200 -th epoch marginal likelihood 257.6514066436648
+250 -th epoch marginal likelihood 226.79525772044448
+300 -th epoch marginal likelihood 202.28629266287584
+350 -th epoch marginal likelihood 182.7105054323321
+400 -th epoch marginal likelihood 166.99256003724898
+450 -th epoch marginal likelihood 154.3052920590044
+500 -th epoch marginal likelihood 144.00806430028584
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 193.08447720892318
+50 -th epoch marginal likelihood 131.490436278282
+100 -th epoch marginal likelihood 84.21412487878084
+150 -th epoch marginal likelihood 48.02713421661764
+200 -th epoch marginal likelihood 20.113019297787304
+250 -th epoch marginal likelihood -1.5686146862329053
+300 -th epoch marginal likelihood -18.516069741217947
+350 -th epoch marginal likelihood -31.844307964259343
+400 -th epoch marginal likelihood -42.39090458511431
+450 -th epoch marginal likelihood -50.78920479257707
+500 -th epoch marginal likelihood -57.520431204733455
+Done
+
+Proposals
+###
+number = 1
+actions =  16
+proposal =  [  1.88     1.35     3.       3.44     3.     167.       5.      12.1385
+   3.2412]
+###
+Finish selection of proposals!
+  Querying: Co2(PO4)3 (mp-758304_Li)  [TM=Co]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 4.3813 V    max_ΔV = 0.0927
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 52/80 [PHYSBO] (833 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 529.2868180862736
+50 -th epoch marginal likelihood 441.4252336177903
+100 -th epoch marginal likelihood 372.87517784631774
+150 -th epoch marginal likelihood 319.3314384147733
+200 -th epoch marginal likelihood 277.09566378821296
+250 -th epoch marginal likelihood 243.52318874369124
+300 -th epoch marginal likelihood 216.67968580212187
+350 -th epoch marginal likelihood 195.11409623425695
+400 -th epoch marginal likelihood 177.71500811801562
+450 -th epoch marginal likelihood 163.61862226995453
+500 -th epoch marginal likelihood 152.1477227279975
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 178.8685164885191
+50 -th epoch marginal likelihood 119.52099198753251
+100 -th epoch marginal likelihood 74.09705327147381
+150 -th epoch marginal likelihood 39.431714096811504
+200 -th epoch marginal likelihood 12.768951149587906
+250 -th epoch marginal likelihood -7.884245848624346
+300 -th epoch marginal likelihood -23.987576852623192
+350 -th epoch marginal likelihood -36.62374850864097
+400 -th epoch marginal likelihood -46.60316289264766
+450 -th epoch marginal likelihood -54.53636303776021
+500 -th epoch marginal likelihood -60.885627946969834
+Done
+
+Proposals
+###
+number = 1
+actions =  86
+proposal =  [ 1.7226  1.4     4.8947  3.44    9.      1.      1.     13.8319  3.1945]
+###
+Finish selection of proposals!
+  Querying: Cr12Fe7O48 (mp-1176819_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 4.0302 V    max_ΔV = 0.0042
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 53/80 [PHYSBO] (832 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 491.9348161246053
+50 -th epoch marginal likelihood 408.94256476015926
+100 -th epoch marginal likelihood 344.77423328836187
+150 -th epoch marginal likelihood 295.15051314196864
+200 -th epoch marginal likelihood 256.40455157438237
+250 -th epoch marginal likelihood 225.91327822259552
+300 -th epoch marginal likelihood 201.76084812095806
+350 -th epoch marginal likelihood 182.51776484250587
+400 -th epoch marginal likelihood 167.1002038255243
+450 -th epoch marginal likelihood 154.6776982596345
+500 -th epoch marginal likelihood 144.60982931167476
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 211.8657016405976
+50 -th epoch marginal likelihood 147.53346399729529
+100 -th epoch marginal likelihood 97.68504735279777
+150 -th epoch marginal likelihood 59.13812229178791
+200 -th epoch marginal likelihood 29.10801068687161
+250 -th epoch marginal likelihood 5.570083318774721
+300 -th epoch marginal likelihood -12.974024489480229
+350 -th epoch marginal likelihood -27.652434462712847
+400 -th epoch marginal likelihood -39.32497165872337
+450 -th epoch marginal likelihood -48.65214112461243
+500 -th epoch marginal likelihood -56.143687954594384
+Done
+
+Proposals
+###
+number = 1
+actions =  630
+proposal =  [ 1.91    1.35    2.      3.44   17.      2.      1.     11.8136  3.9415]
+###
+Finish selection of proposals!
+  Querying: Ni11O28 (mp-759703_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 3.5489 V    max_ΔV = 0.0205
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 54/80 [PHYSBO] (831 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 545.6380384208856
+50 -th epoch marginal likelihood 455.1480717888771
+100 -th epoch marginal likelihood 384.4942066799904
+150 -th epoch marginal likelihood 329.2522013687003
+200 -th epoch marginal likelihood 285.6290264269076
+250 -th epoch marginal likelihood 250.9167361234549
+300 -th epoch marginal likelihood 223.13595155654164
+350 -th epoch marginal likelihood 200.80110171664836
+400 -th epoch marginal likelihood 182.77270785786595
+450 -th epoch marginal likelihood 168.16324089244952
+500 -th epoch marginal likelihood 156.27511159075635
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 175.99488311682236
+50 -th epoch marginal likelihood 115.81293990178176
+100 -th epoch marginal likelihood 69.96627164646071
+150 -th epoch marginal likelihood 35.117408658971414
+200 -th epoch marginal likelihood 8.399903139574576
+250 -th epoch marginal likelihood -12.24192563653122
+300 -th epoch marginal likelihood -28.303221159064705
+350 -th epoch marginal likelihood -40.88628214903602
+400 -th epoch marginal likelihood -50.81180098819709
+450 -th epoch marginal likelihood -58.695232854261576
+500 -th epoch marginal likelihood -65.00077057593856
+Done
+
+Proposals
+###
+number = 1
+actions =  306
+proposal =  [  1.55     1.4      7.       3.44     1.     121.       4.      18.1333
+   2.6758]
+###
+Finish selection of proposals!
+  Querying: K11Mn4O16 (mp-560465_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 74898.29it/s]
+  avg_voltage = 3.4772 V    max_ΔV = 0.0040
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 55/80 [PHYSBO] (830 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 538.8053207787262
+50 -th epoch marginal likelihood 448.4600702057161
+100 -th epoch marginal likelihood 378.2525788775931
+150 -th epoch marginal likelihood 323.6438389856786
+200 -th epoch marginal likelihood 280.74587544539145
+250 -th epoch marginal likelihood 246.78110183438145
+300 -th epoch marginal likelihood 219.72136790066367
+350 -th epoch marginal likelihood 198.05025244221304
+400 -th epoch marginal likelihood 180.61190027150354
+450 -th epoch marginal likelihood 166.51324498574962
+500 -th epoch marginal likelihood 155.05857162322744
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 203.56044658031482
+50 -th epoch marginal likelihood 138.9400452467779
+100 -th epoch marginal likelihood 89.2396696322308
+150 -th epoch marginal likelihood 51.070569618119606
+200 -th epoch marginal likelihood 21.51310342818448
+250 -th epoch marginal likelihood -1.534516053683035
+300 -th epoch marginal likelihood -19.613286310991782
+350 -th epoch marginal likelihood -33.87268602565311
+400 -th epoch marginal likelihood -45.18071268930825
+450 -th epoch marginal likelihood -54.19817169106388
+500 -th epoch marginal likelihood -61.43081027724641
+Done
+
+Proposals
+###
+number = 1
+actions =  850
+proposal =  [ 1.63    1.35    5.      3.98    3.      7.      2.     19.5783  1.9984]
+###
+Finish selection of proposals!
+  Querying: VF6 (mp-760194_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 4.6234 V    max_ΔV = 0.0185
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 56/80 [PHYSBO] (829 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 532.5694541224435
+50 -th epoch marginal likelihood 443.1738201441761
+100 -th epoch marginal likelihood 373.86893140458847
+150 -th epoch marginal likelihood 320.08212958803415
+200 -th epoch marginal likelihood 277.91423568023345
+250 -th epoch marginal likelihood 244.5884602622064
+300 -th epoch marginal likelihood 218.081804723874
+350 -th epoch marginal likelihood 196.8841568104318
+400 -th epoch marginal likelihood 179.84673650614417
+450 -th epoch marginal likelihood 166.0843558773471
+500 -th epoch marginal likelihood 154.90963763137094
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 151.36701732746081
+50 -th epoch marginal likelihood 93.8728735824927
+100 -th epoch marginal likelihood 50.615711713336225
+150 -th epoch marginal likelihood 18.13773049344323
+200 -th epoch marginal likelihood -6.487581482452242
+250 -th epoch marginal likelihood -25.331877257895258
+300 -th epoch marginal likelihood -39.87876176152933
+350 -th epoch marginal likelihood -51.203757029275735
+400 -th epoch marginal likelihood -60.09419925857003
+450 -th epoch marginal likelihood -67.13124178406717
+500 -th epoch marginal likelihood -72.74708285885478
+Done
+
+Proposals
+###
+number = 1
+actions =  476
+proposal =  [  1.55     1.4      7.       3.98     1.     160.       5.      12.103
+   4.2816]
+###
+Finish selection of proposals!
+  Querying: Mn5O7F (mp-753411_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 61680.94it/s]
+  avg_voltage = 3.7042 V    max_ΔV = 0.0260
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 57/80 [PHYSBO] (828 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 549.6841857795154
+50 -th epoch marginal likelihood 457.68689730249724
+100 -th epoch marginal likelihood 386.22959194979126
+150 -th epoch marginal likelihood 330.6546505776695
+200 -th epoch marginal likelihood 286.99087917348265
+250 -th epoch marginal likelihood 252.41094917693826
+300 -th epoch marginal likelihood 224.8536602246753
+350 -th epoch marginal likelihood 202.77816448442772
+400 -th epoch marginal likelihood 185.0097472946768
+450 -th epoch marginal likelihood 170.64060244013018
+500 -th epoch marginal likelihood 158.96340267399947
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 211.98543905928966
+50 -th epoch marginal likelihood 144.94177630542057
+100 -th epoch marginal likelihood 93.35576535836142
+150 -th epoch marginal likelihood 53.713412844554426
+200 -th epoch marginal likelihood 22.991081901582703
+250 -th epoch marginal likelihood -0.985939256061755
+300 -th epoch marginal likelihood -19.811119504379775
+350 -th epoch marginal likelihood -34.672869717286915
+400 -th epoch marginal likelihood -46.46888582531915
+450 -th epoch marginal likelihood -55.88311383897357
+500 -th epoch marginal likelihood -63.43957660016957
+Done
+
+Proposals
+###
+number = 1
+actions =  623
+proposal =  [  1.63     1.35     5.       3.44     6.     146.       5.      13.7475
+   2.8974]
+###
+Finish selection of proposals!
+  Querying: NbV3(PO4)6 (mp-775224_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 2.7450 V    max_ΔV = 0.0380
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 58/80 [PHYSBO] (827 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 579.0668094233334
+50 -th epoch marginal likelihood 482.34906042198594
+100 -th epoch marginal likelihood 408.0681063310584
+150 -th epoch marginal likelihood 349.68978283773293
+200 -th epoch marginal likelihood 303.35895366394703
+250 -th epoch marginal likelihood 267.4915135660554
+300 -th epoch marginal likelihood 238.2127021581135
+350 -th epoch marginal likelihood 214.63896765789104
+400 -th epoch marginal likelihood 195.60575810070802
+450 -th epoch marginal likelihood 180.23305881085724
+500 -th epoch marginal likelihood 167.5718743467667
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 224.66910969616055
+50 -th epoch marginal likelihood 155.3114612832618
+100 -th epoch marginal likelihood 101.12023417059578
+150 -th epoch marginal likelihood 60.12142064741812
+200 -th epoch marginal likelihood 27.837990604830054
+250 -th epoch marginal likelihood 3.7619402954969985
+300 -th epoch marginal likelihood -16.257524093386195
+350 -th epoch marginal likelihood -32.06141829337028
+400 -th epoch marginal likelihood -44.67230858818533
+450 -th epoch marginal likelihood -54.588907990487684
+500 -th epoch marginal likelihood -62.56395498786793
+Done
+
+Proposals
+###
+number = 1
+actions =  295
+proposal =  [ 1.83    1.4     3.      3.44    4.      1.      1.     14.6828  2.4672]
+###
+Finish selection of proposals!
+  Querying: FeP2O9 (mp-26901_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 68759.08it/s]
+  avg_voltage = 4.6252 V    max_ΔV = 0.0122
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 59/80 [PHYSBO] (826 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 561.3446346188227
+50 -th epoch marginal likelihood 467.7620187564242
+100 -th epoch marginal likelihood 394.9291117379556
+150 -th epoch marginal likelihood 339.76261714947816
+200 -th epoch marginal likelihood 295.33286297575444
+250 -th epoch marginal likelihood 260.58695295424127
+300 -th epoch marginal likelihood 232.5068209684471
+350 -th epoch marginal likelihood 210.73674904937957
+400 -th epoch marginal likelihood 192.8663600021996
+450 -th epoch marginal likelihood 178.22846899257019
+500 -th epoch marginal likelihood 165.89940208488173
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 236.50306335074862
+50 -th epoch marginal likelihood 164.78791804765467
+100 -th epoch marginal likelihood 109.2042794942762
+150 -th epoch marginal likelihood 66.56707689148061
+200 -th epoch marginal likelihood 33.09836811320059
+250 -th epoch marginal likelihood 7.014437363116286
+300 -th epoch marginal likelihood -13.852202101735799
+350 -th epoch marginal likelihood -30.339605535783846
+400 -th epoch marginal likelihood -43.61336071682837
+450 -th epoch marginal likelihood -54.088294437118336
+500 -th epoch marginal likelihood -62.41867118201965
+Done
+
+Proposals
+###
+number = 1
+actions =  668
+proposal =  [ 1.83    1.4     3.      3.44   10.      1.      1.     12.7257  2.8738]
+###
+Finish selection of proposals!
+  Querying: Sc9Fe(SiO3)20 (mp-760050_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 5.0105 V    max_ΔV = 0.0054
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 60/80 [PHYSBO] (825 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 541.3472920449626
+50 -th epoch marginal likelihood 450.673372613949
+100 -th epoch marginal likelihood 380.9816332830205
+150 -th epoch marginal likelihood 327.03541899407617
+200 -th epoch marginal likelihood 285.83130815775115
+250 -th epoch marginal likelihood 252.97765646793124
+300 -th epoch marginal likelihood 226.9232049724823
+350 -th epoch marginal likelihood 205.91291883787795
+400 -th epoch marginal likelihood 188.71392083898573
+450 -th epoch marginal likelihood 174.4202028116626
+500 -th epoch marginal likelihood 163.03289095914772
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 208.9233470751458
+50 -th epoch marginal likelihood 140.20471660836964
+100 -th epoch marginal likelihood 87.8969448615114
+150 -th epoch marginal likelihood 48.861127829000964
+200 -th epoch marginal likelihood 17.800584245196518
+250 -th epoch marginal likelihood -6.881540896021789
+300 -th epoch marginal likelihood -25.94495426549517
+350 -th epoch marginal likelihood -40.45781557503261
+400 -th epoch marginal likelihood -52.54389796552141
+450 -th epoch marginal likelihood -61.8723018250238
+500 -th epoch marginal likelihood -69.53805982610197
+Done
+
+Proposals
+###
+number = 1
+actions =  333
+proposal =  [ 1.55    1.4     7.      3.98    8.      1.      1.     19.285   1.9304]
+###
+Finish selection of proposals!
+  Querying: Mn(O2F)2 (mp-763440_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 66576.25it/s]
+  avg_voltage = 4.5336 V    max_ΔV = 0.0612
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 61/80 [PHYSBO] (824 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 583.1865958881846
+50 -th epoch marginal likelihood 485.44100837946655
+100 -th epoch marginal likelihood 411.58109112886274
+150 -th epoch marginal likelihood 354.52577310442126
+200 -th epoch marginal likelihood 308.25987877612874
+250 -th epoch marginal likelihood 272.32695500135884
+300 -th epoch marginal likelihood 244.1455733390399
+350 -th epoch marginal likelihood 220.8992033472952
+400 -th epoch marginal likelihood 202.01530961770248
+450 -th epoch marginal likelihood 186.69842191869316
+500 -th epoch marginal likelihood 173.92956006155356
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 227.36505667718626
+50 -th epoch marginal likelihood 155.05782197005988
+100 -th epoch marginal likelihood 100.26474299801782
+150 -th epoch marginal likelihood 57.31743981410585
+200 -th epoch marginal likelihood 24.87091846936022
+250 -th epoch marginal likelihood -0.7105685508525426
+300 -th epoch marginal likelihood -20.89095215210054
+350 -th epoch marginal likelihood -36.27995747782276
+400 -th epoch marginal likelihood -48.750208709860544
+450 -th epoch marginal likelihood -58.969687710946445
+500 -th epoch marginal likelihood -67.2587647973128
+Done
+
+Proposals
+###
+number = 1
+actions =  292
+proposal =  [  1.83     1.4      3.       3.98     5.     144.       5.      15.8136
+   2.5027]
+###
+Finish selection of proposals!
+  Querying: FeOF5 (mp-775155_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 72315.59it/s]
+  avg_voltage = 2.8263 V    max_ΔV = 0.0026
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 62/80 [PHYSBO] (823 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 552.7106834995759
+50 -th epoch marginal likelihood 461.08248985263083
+100 -th epoch marginal likelihood 390.59475134706975
+150 -th epoch marginal likelihood 337.15741392942977
+200 -th epoch marginal likelihood 294.694846688084
+250 -th epoch marginal likelihood 261.90640450910706
+300 -th epoch marginal likelihood 234.434753182377
+350 -th epoch marginal likelihood 212.74182436321414
+400 -th epoch marginal likelihood 195.2307867287006
+450 -th epoch marginal likelihood 180.8213162522802
+500 -th epoch marginal likelihood 169.12761346044888
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 249.34168126583228
+50 -th epoch marginal likelihood 175.53653974093794
+100 -th epoch marginal likelihood 116.67031515098836
+150 -th epoch marginal likelihood 71.60561184574732
+200 -th epoch marginal likelihood 36.12959388914476
+250 -th epoch marginal likelihood 8.329897114275582
+300 -th epoch marginal likelihood -14.063912170438613
+350 -th epoch marginal likelihood -30.572944330377766
+400 -th epoch marginal likelihood -43.921032729618986
+450 -th epoch marginal likelihood -54.92736200379076
+500 -th epoch marginal likelihood -63.89861786560816
+Done
+
+Proposals
+###
+number = 1
+actions =  51
+proposal =  [ 1.88    1.35    3.      3.44    5.     11.      2.     12.2829  3.5197]
+###
+Finish selection of proposals!
+  Querying: CoCu(PO4)2 (mp-756337_Li)  [TM=Co]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 65536.00it/s]
+  avg_voltage = 3.9996 V    max_ΔV = 0.0606
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 63/80 [PHYSBO] (822 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 581.4891218061425
+50 -th epoch marginal likelihood 485.0779662929745
+100 -th epoch marginal likelihood 413.40665203778
+150 -th epoch marginal likelihood 356.85214377823684
+200 -th epoch marginal likelihood 311.57661469316787
+250 -th epoch marginal likelihood 276.120465748419
+300 -th epoch marginal likelihood 248.44098778838912
+350 -th epoch marginal likelihood 225.0314406326635
+400 -th epoch marginal likelihood 206.88890455867244
+450 -th epoch marginal likelihood 191.08387495475236
+500 -th epoch marginal likelihood 178.25820310275955
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 238.63947686365972
+50 -th epoch marginal likelihood 165.67804558302365
+100 -th epoch marginal likelihood 109.76400558575816
+150 -th epoch marginal likelihood 66.17548924427516
+200 -th epoch marginal likelihood 31.419853243248866
+250 -th epoch marginal likelihood 4.068956607622681
+300 -th epoch marginal likelihood -16.64934818374678
+350 -th epoch marginal likelihood -33.85380351162871
+400 -th epoch marginal likelihood -47.18792231934884
+450 -th epoch marginal likelihood -58.23183817416553
+500 -th epoch marginal likelihood -67.21979601977218
+Done
+
+Proposals
+###
+number = 1
+actions =  663
+proposal =  [ 1.91    1.35    2.      3.98    2.      2.      1.     12.467   3.2854]
+###
+Finish selection of proposals!
+  Querying: NiPO4F (mp-25397_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 72315.59it/s]
+  avg_voltage = 5.0577 V    max_ΔV = 0.0654
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 64/80 [PHYSBO] (821 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 590.7224294793431
+50 -th epoch marginal likelihood 494.2179614436169
+100 -th epoch marginal likelihood 419.53649278859194
+150 -th epoch marginal likelihood 360.9666300486168
+200 -th epoch marginal likelihood 316.98722297064575
+250 -th epoch marginal likelihood 281.1616975495799
+300 -th epoch marginal likelihood 252.61143742553676
+350 -th epoch marginal likelihood 228.6052348996928
+400 -th epoch marginal likelihood 209.7159906886809
+450 -th epoch marginal likelihood 193.17715320464532
+500 -th epoch marginal likelihood 180.26442065143144
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 249.58692213815056
+50 -th epoch marginal likelihood 174.33945033244044
+100 -th epoch marginal likelihood 118.09709742652512
+150 -th epoch marginal likelihood 72.96487703968859
+200 -th epoch marginal likelihood 36.851323999004364
+250 -th epoch marginal likelihood 9.634056768520566
+300 -th epoch marginal likelihood -12.441953022926896
+350 -th epoch marginal likelihood -29.124051375787133
+400 -th epoch marginal likelihood -44.04290175432064
+450 -th epoch marginal likelihood -56.02442292536395
+500 -th epoch marginal likelihood -65.78515941716094
+Done
+
+Proposals
+###
+number = 1
+actions =  174
+proposal =  [ 1.83    1.4     3.      3.44    1.      2.      1.     13.6006  2.7495]
+###
+Finish selection of proposals!
+  Querying: Fe(PO3)3 (mp-26003_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+  avg_voltage = 4.3793 V    max_ΔV = 0.0107
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 65/80 [PHYSBO] (820 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 581.2589053407228
+50 -th epoch marginal likelihood 486.97385855073617
+100 -th epoch marginal likelihood 416.55552993976596
+150 -th epoch marginal likelihood 359.70687128217605
+200 -th epoch marginal likelihood 317.0904853170302
+250 -th epoch marginal likelihood 283.0064518446648
+300 -th epoch marginal likelihood 254.16728018679686
+350 -th epoch marginal likelihood 231.1897799525648
+400 -th epoch marginal likelihood 212.12952973818173
+450 -th epoch marginal likelihood 197.23657013279382
+500 -th epoch marginal likelihood 184.7014029253517
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 252.7171198732969
+50 -th epoch marginal likelihood 176.5044390535669
+100 -th epoch marginal likelihood 117.74725891916938
+150 -th epoch marginal likelihood 72.0243462147285
+200 -th epoch marginal likelihood 37.24750536128059
+250 -th epoch marginal likelihood 7.351963118969763
+300 -th epoch marginal likelihood -13.973825301636793
+350 -th epoch marginal likelihood -31.344261851119512
+400 -th epoch marginal likelihood -45.607263599610064
+450 -th epoch marginal likelihood -56.736605237714144
+500 -th epoch marginal likelihood -66.51561953697873
+Done
+
+Proposals
+###
+number = 1
+actions =  345
+proposal =  [  1.5725   1.3969   6.6875   3.44     8.     166.       5.      11.637
+   4.1463]
+###
+Finish selection of proposals!
+  Querying: Mn15NiO32 (mp-772976_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 4.0209 V    max_ΔV = 0.0515
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 66/80 [PHYSBO] (819 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 602.972171139773
+50 -th epoch marginal likelihood 506.3630527469373
+100 -th epoch marginal likelihood 435.8871485232913
+150 -th epoch marginal likelihood 378.18551283494196
+200 -th epoch marginal likelihood 332.3947618373686
+250 -th epoch marginal likelihood 295.3732552897086
+300 -th epoch marginal likelihood 264.64953983604937
+350 -th epoch marginal likelihood 240.5992603738011
+400 -th epoch marginal likelihood 221.070722111363
+450 -th epoch marginal likelihood 204.53482678923618
+500 -th epoch marginal likelihood 190.94763644144453
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 229.42602011892302
+50 -th epoch marginal likelihood 154.98595473102
+100 -th epoch marginal likelihood 100.19967606953503
+150 -th epoch marginal likelihood 55.583726406250264
+200 -th epoch marginal likelihood 21.322549472725996
+250 -th epoch marginal likelihood -5.105316257006734
+300 -th epoch marginal likelihood -24.664856514476156
+350 -th epoch marginal likelihood -40.37726191051118
+400 -th epoch marginal likelihood -53.79387446644978
+450 -th epoch marginal likelihood -64.36284910282929
+500 -th epoch marginal likelihood -72.62386754009052
+Done
+
+Proposals
+###
+number = 1
+actions =  670
+proposal =  [ 1.88    1.35    3.      3.44    4.      1.      1.     14.0329  6.6423]
+###
+Finish selection of proposals!
+  Querying: SrLa15(CoO8)4 (mp-766205_Li)  [TM=Co]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 63550.06it/s]
+  avg_voltage = 3.7681 V    max_ΔV = 0.0121
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 67/80 [PHYSBO] (818 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 607.7516198685018
+50 -th epoch marginal likelihood 510.5076539670038
+100 -th epoch marginal likelihood 436.95300695254747
+150 -th epoch marginal likelihood 379.4123718808746
+200 -th epoch marginal likelihood 333.64807918133573
+250 -th epoch marginal likelihood 297.6495769165988
+300 -th epoch marginal likelihood 267.6211829884239
+350 -th epoch marginal likelihood 243.08120319015237
+400 -th epoch marginal likelihood 222.63074376465232
+450 -th epoch marginal likelihood 205.75860603927975
+500 -th epoch marginal likelihood 192.3045466449119
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 249.529695428124
+50 -th epoch marginal likelihood 171.81899399033665
+100 -th epoch marginal likelihood 112.94594666110424
+150 -th epoch marginal likelihood 65.88430147201524
+200 -th epoch marginal likelihood 30.642441916120674
+250 -th epoch marginal likelihood 3.5426292822662617
+300 -th epoch marginal likelihood -19.91355673439432
+350 -th epoch marginal likelihood -36.67113528692971
+400 -th epoch marginal likelihood -51.07202120208572
+450 -th epoch marginal likelihood -62.78951782836934
+500 -th epoch marginal likelihood -71.96217400046496
+Done
+
+Proposals
+###
+number = 1
+actions =  891
+proposal =  [ 1.83    1.4     3.      3.44    8.      1.      1.     15.0718  2.9716]
+###
+Finish selection of proposals!
+  Querying: Zr7Fe(PO4)12 (mp-759723_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 3.0411 V    max_ΔV = 0.0058
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 68/80 [PHYSBO] (817 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 613.7944807523384
+50 -th epoch marginal likelihood 510.91578724921806
+100 -th epoch marginal likelihood 433.2764100163474
+150 -th epoch marginal likelihood 372.8516778533279
+200 -th epoch marginal likelihood 329.3011329616048
+250 -th epoch marginal likelihood 294.5094243134042
+300 -th epoch marginal likelihood 263.84285625656565
+350 -th epoch marginal likelihood 239.6215196595767
+400 -th epoch marginal likelihood 220.35116079502083
+450 -th epoch marginal likelihood 204.7952784727271
+500 -th epoch marginal likelihood 190.94626036575286
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 252.59295951026638
+50 -th epoch marginal likelihood 175.0927674601802
+100 -th epoch marginal likelihood 118.12728324091893
+150 -th epoch marginal likelihood 69.91553590671862
+200 -th epoch marginal likelihood 31.783922053952296
+250 -th epoch marginal likelihood 3.4910449616692745
+300 -th epoch marginal likelihood -18.544924819058423
+350 -th epoch marginal likelihood -35.79328025228273
+400 -th epoch marginal likelihood -51.02598757586452
+450 -th epoch marginal likelihood -62.643844751402895
+500 -th epoch marginal likelihood -72.03748801609176
+Done
+
+Proposals
+###
+number = 1
+actions =  301
+proposal =  [  1.83     1.4      3.       3.44     1.     181.       6.      16.9548
+   2.4147]
+###
+Finish selection of proposals!
+  Querying: FeSiO4 (mp-757540_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 4.7107 V    max_ΔV = 0.0023
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 69/80 [PHYSBO] (816 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 647.6731709213153
+50 -th epoch marginal likelihood 541.508112430283
+100 -th epoch marginal likelihood 463.3943239993098
+150 -th epoch marginal likelihood 398.9546987848133
+200 -th epoch marginal likelihood 350.872954679708
+250 -th epoch marginal likelihood 312.59064446408775
+300 -th epoch marginal likelihood 280.28080033381246
+350 -th epoch marginal likelihood 254.29422096135715
+400 -th epoch marginal likelihood 232.3185336359786
+450 -th epoch marginal likelihood 215.8931389665428
+500 -th epoch marginal likelihood 200.70352815342773
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 254.10623461298218
+50 -th epoch marginal likelihood 177.88047393941451
+100 -th epoch marginal likelihood 118.14571735069097
+150 -th epoch marginal likelihood 70.89543749006896
+200 -th epoch marginal likelihood 34.555498148526596
+250 -th epoch marginal likelihood 6.224685973736371
+300 -th epoch marginal likelihood -16.105737869857847
+350 -th epoch marginal likelihood -34.34218770405923
+400 -th epoch marginal likelihood -49.28563364836336
+450 -th epoch marginal likelihood -61.14628520472877
+500 -th epoch marginal likelihood -71.12745932890903
+Done
+
+Proposals
+###
+number = 1
+actions =  586
+proposal =  [ 2.16    1.45    6.      3.44    4.     12.      2.     14.8389  4.2301]
+###
+Finish selection of proposals!
+  Querying: Mo3O8 (mp-554485_Li)  [TM=Mo]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 73584.28it/s]
+  avg_voltage = 2.9926 V    max_ΔV = 0.0238
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 70/80 [PHYSBO] (815 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 664.8390785682723
+50 -th epoch marginal likelihood 558.1921302145769
+100 -th epoch marginal likelihood 477.6019532168769
+150 -th epoch marginal likelihood 414.6725953587323
+200 -th epoch marginal likelihood 363.8408342054679
+250 -th epoch marginal likelihood 323.14035225846334
+300 -th epoch marginal likelihood 289.86907966404226
+350 -th epoch marginal likelihood 262.6783047286229
+400 -th epoch marginal likelihood 239.27310256418065
+450 -th epoch marginal likelihood 221.73542072999055
+500 -th epoch marginal likelihood 205.5777547537416
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 232.4696592270995
+50 -th epoch marginal likelihood 157.18825384983245
+100 -th epoch marginal likelihood 101.25216253407825
+150 -th epoch marginal likelihood 58.60824055862565
+200 -th epoch marginal likelihood 22.18210519351038
+250 -th epoch marginal likelihood -5.857538725660959
+300 -th epoch marginal likelihood -27.454998917452684
+350 -th epoch marginal likelihood -43.74491060037735
+400 -th epoch marginal likelihood -57.730908720325516
+450 -th epoch marginal likelihood -69.27016875822463
+500 -th epoch marginal likelihood -78.12700665471075
+Done
+
+Proposals
+###
+number = 1
+actions =  655
+proposal =  [ 1.91    1.35    2.      3.44    1.      6.      2.     11.5466  3.3797]
+###
+Finish selection of proposals!
+  Querying: NiBO3 (mp-755271_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 4.7635 V    max_ΔV = 0.0014
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 71/80 [PHYSBO] (814 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 1183.4225631393613
+50 -th epoch marginal likelihood 1014.9234975902194
+100 -th epoch marginal likelihood 880.0308983063073
+150 -th epoch marginal likelihood 768.5887200027277
+200 -th epoch marginal likelihood 673.962004162678
+250 -th epoch marginal likelihood 598.1126114408075
+300 -th epoch marginal likelihood 536.8217309750552
+350 -th epoch marginal likelihood 481.90191457223716
+400 -th epoch marginal likelihood 439.3176603699971
+450 -th epoch marginal likelihood 399.8193090300827
+500 -th epoch marginal likelihood 365.6847966423077
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 285.1498290178
+50 -th epoch marginal likelihood 202.6145168823176
+100 -th epoch marginal likelihood 140.19450749250305
+150 -th epoch marginal likelihood 92.00928873748106
+200 -th epoch marginal likelihood 51.00733753454065
+250 -th epoch marginal likelihood 19.50672593318268
+300 -th epoch marginal likelihood -6.890813859869269
+350 -th epoch marginal likelihood -28.400773130730357
+400 -th epoch marginal likelihood -45.05059404880163
+450 -th epoch marginal likelihood -58.3320492362659
+500 -th epoch marginal likelihood -68.68023540166283
+Done
+
+Proposals
+###
+number = 1
+actions =  870
+proposal =  [ 1.63    1.35    5.      3.98    3.      9.      2.     14.1186  2.7742]
+###
+Finish selection of proposals!
+  Querying: VO3F (mp-761092_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 67650.06it/s]
+  avg_voltage = 3.0814 V    max_ΔV = 0.0259
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 72/80 [PHYSBO] (813 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 694.9179155395642
+50 -th epoch marginal likelihood 585.1272579609897
+100 -th epoch marginal likelihood 499.4112727052364
+150 -th epoch marginal likelihood 433.3066523434678
+200 -th epoch marginal likelihood 378.7596542673638
+250 -th epoch marginal likelihood 337.7504594689265
+300 -th epoch marginal likelihood 302.75065685852934
+350 -th epoch marginal likelihood 274.70244503916183
+400 -th epoch marginal likelihood 253.26345074884273
+450 -th epoch marginal likelihood 234.62983544839983
+500 -th epoch marginal likelihood 217.3532078273158
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 255.49988447090686
+50 -th epoch marginal likelihood 175.42358988358035
+100 -th epoch marginal likelihood 115.39281689854249
+150 -th epoch marginal likelihood 66.97247427846838
+200 -th epoch marginal likelihood 29.05219282059059
+250 -th epoch marginal likelihood -0.22641294352018804
+300 -th epoch marginal likelihood -24.09536121040918
+350 -th epoch marginal likelihood -42.81001273877669
+400 -th epoch marginal likelihood -58.020176822061785
+450 -th epoch marginal likelihood -69.99201427536153
+500 -th epoch marginal likelihood -79.6309095354338
+Done
+
+Proposals
+###
+number = 1
+actions =  298
+proposal =  [  1.83     1.4      3.       3.44     1.     159.       5.      12.7001
+   3.2865]
+###
+Finish selection of proposals!
+  Querying: FePO4 (mp-26611_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 68759.08it/s]
+  avg_voltage = 3.8474 V    max_ΔV = 0.0225
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 73/80 [PHYSBO] (812 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 705.8604606034667
+50 -th epoch marginal likelihood 594.8861132091554
+100 -th epoch marginal likelihood 505.6683737670716
+150 -th epoch marginal likelihood 438.18217683029866
+200 -th epoch marginal likelihood 386.22889423363915
+250 -th epoch marginal likelihood 345.3816699161724
+300 -th epoch marginal likelihood 311.32254067097546
+350 -th epoch marginal likelihood 281.52651330248506
+400 -th epoch marginal likelihood 258.1962982060133
+450 -th epoch marginal likelihood 238.05289920451634
+500 -th epoch marginal likelihood 220.83931660377007
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 284.8298028928135
+50 -th epoch marginal likelihood 198.5874512880858
+100 -th epoch marginal likelihood 134.34507927292788
+150 -th epoch marginal likelihood 84.48229856881176
+200 -th epoch marginal likelihood 42.58746954330792
+250 -th epoch marginal likelihood 11.090491967672932
+300 -th epoch marginal likelihood -13.410788796565669
+350 -th epoch marginal likelihood -33.56807075875375
+400 -th epoch marginal likelihood -49.739560114080376
+450 -th epoch marginal likelihood -63.344059346974745
+500 -th epoch marginal likelihood -73.87460685937909
+Done
+
+Proposals
+###
+number = 1
+actions =  720
+proposal =  [  1.7575   1.4      3.25     3.44     7.     146.       5.      14.3576
+   2.6711]
+###
+Finish selection of proposals!
+  Querying: TiFe3(PO4)6 (mp-758142_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 60787.01it/s]
+  avg_voltage = 4.0128 V    max_ΔV = 0.0436
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 74/80 [PHYSBO] (811 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 762.0625237979341
+50 -th epoch marginal likelihood 644.228248881042
+100 -th epoch marginal likelihood 550.5029030722314
+150 -th epoch marginal likelihood 477.70309098724726
+200 -th epoch marginal likelihood 421.99772797518625
+250 -th epoch marginal likelihood 376.40799370130406
+300 -th epoch marginal likelihood 338.4057109868802
+350 -th epoch marginal likelihood 305.5288468483801
+400 -th epoch marginal likelihood 278.8682299568687
+450 -th epoch marginal likelihood 255.75028692978555
+500 -th epoch marginal likelihood 237.61890987377805
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 314.1929223572928
+50 -th epoch marginal likelihood 225.05111228135584
+100 -th epoch marginal likelihood 155.41272181925964
+150 -th epoch marginal likelihood 100.41271791624482
+200 -th epoch marginal likelihood 56.58052346266496
+250 -th epoch marginal likelihood 22.617648815857905
+300 -th epoch marginal likelihood -3.5560163176419053
+350 -th epoch marginal likelihood -24.92059356685209
+400 -th epoch marginal likelihood -43.15633563894161
+450 -th epoch marginal likelihood -57.2254724250256
+500 -th epoch marginal likelihood -68.00850337194606
+Done
+
+Proposals
+###
+number = 1
+actions =  180
+proposal =  [  1.83     1.4      3.       3.44     1.     122.       4.      16.8992
+   3.382 ]
+###
+Finish selection of proposals!
+  Querying: Fe(SeO3)2 (mp-25261_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 5.0544 V    max_ΔV = 0.0179
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 75/80 [PHYSBO] (810 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 676.6026404080118
+50 -th epoch marginal likelihood 567.8737191507046
+100 -th epoch marginal likelihood 484.49192605348685
+150 -th epoch marginal likelihood 420.3273124170429
+200 -th epoch marginal likelihood 370.11841946016136
+250 -th epoch marginal likelihood 328.06326215055634
+300 -th epoch marginal likelihood 295.4521605420791
+350 -th epoch marginal likelihood 268.629930118974
+400 -th epoch marginal likelihood 245.89517497147335
+450 -th epoch marginal likelihood 226.95933725220203
+500 -th epoch marginal likelihood 212.77063851680379
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 329.08945836288575
+50 -th epoch marginal likelihood 236.64088939555717
+100 -th epoch marginal likelihood 163.13633149056466
+150 -th epoch marginal likelihood 110.06127105663165
+200 -th epoch marginal likelihood 68.44685690659873
+250 -th epoch marginal likelihood 33.984558976117285
+300 -th epoch marginal likelihood 6.386192271384118
+350 -th epoch marginal likelihood -17.56425231313159
+400 -th epoch marginal likelihood -37.104402807042334
+450 -th epoch marginal likelihood -51.72309697924322
+500 -th epoch marginal likelihood -65.06108489153215
+Done
+
+Proposals
+###
+number = 1
+actions =  785
+proposal =  [ 1.63    1.35    5.      3.44    1.     41.      3.     15.2443  2.474 ]
+###
+Finish selection of proposals!
+  Querying: V3(P3O10)2 (mp-25911_Li)  [TM=V]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 72315.59it/s]
+  avg_voltage = 3.2059 V    max_ΔV = 0.0105
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 76/80 [PHYSBO] (809 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 704.8287881122775
+50 -th epoch marginal likelihood 591.3014987623288
+100 -th epoch marginal likelihood 504.39067922962755
+150 -th epoch marginal likelihood 434.15422017784994
+200 -th epoch marginal likelihood 380.29575362563656
+250 -th epoch marginal likelihood 337.8637576297357
+300 -th epoch marginal likelihood 304.51397660249086
+350 -th epoch marginal likelihood 276.715844818858
+400 -th epoch marginal likelihood 253.51352054746428
+450 -th epoch marginal likelihood 233.33864415320238
+500 -th epoch marginal likelihood 218.39971716543343
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 283.0168684133179
+50 -th epoch marginal likelihood 195.33435596455394
+100 -th epoch marginal likelihood 128.62126536526307
+150 -th epoch marginal likelihood 80.19831266493901
+200 -th epoch marginal likelihood 39.51944899787509
+250 -th epoch marginal likelihood 8.21443391764248
+300 -th epoch marginal likelihood -17.28454438420067
+350 -th epoch marginal likelihood -37.03827854450455
+400 -th epoch marginal likelihood -54.61221793893168
+450 -th epoch marginal likelihood -68.60382713648949
+500 -th epoch marginal likelihood -78.66485840627053
+Done
+
+Proposals
+###
+number = 1
+actions =  89
+proposal =  [ 1.66    1.4     6.      2.58    3.     14.      2.     29.1944  1.9462]
+###
+Finish selection of proposals!
+  Querying: Cr2(PS4)3 (mp-778433_Li)  [TM=Cr]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 63550.06it/s]
+  avg_voltage = 2.9096 V    max_ΔV = 0.0909
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 77/80 [PHYSBO] (808 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 701.9512048372851
+50 -th epoch marginal likelihood 593.9643925271353
+100 -th epoch marginal likelihood 507.03151296083684
+150 -th epoch marginal likelihood 435.2663851929632
+200 -th epoch marginal likelihood 385.67552618729326
+250 -th epoch marginal likelihood 341.4764523479455
+300 -th epoch marginal likelihood 306.3810307821088
+350 -th epoch marginal likelihood 279.63204156406
+400 -th epoch marginal likelihood 257.7375122886148
+450 -th epoch marginal likelihood 238.3441373286443
+500 -th epoch marginal likelihood 222.89832460995322
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 298.06270650795693
+50 -th epoch marginal likelihood 209.49254598958754
+100 -th epoch marginal likelihood 143.06009114730458
+150 -th epoch marginal likelihood 90.86131366797886
+200 -th epoch marginal likelihood 48.499951115356026
+250 -th epoch marginal likelihood 15.282943960073652
+300 -th epoch marginal likelihood -9.888578209465408
+350 -th epoch marginal likelihood -31.54417517687392
+400 -th epoch marginal likelihood -48.523544757299135
+450 -th epoch marginal likelihood -62.66718472797882
+500 -th epoch marginal likelihood -73.94163412273181
+Done
+
+Proposals
+###
+number = 1
+actions =  530
+proposal =  [ 1.55    1.4     7.      3.98    5.      3.      2.     16.6847  2.2882]
+###
+Finish selection of proposals!
+  Querying: MnF8 (mp-756952_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 71089.90it/s]
+  avg_voltage = 4.5199 V    max_ΔV = 0.0192
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 78/80 [PHYSBO] (807 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 735.7911709691735
+50 -th epoch marginal likelihood 619.876875679714
+100 -th epoch marginal likelihood 528.9727242651854
+150 -th epoch marginal likelihood 459.2614202471883
+200 -th epoch marginal likelihood 404.79368650856804
+250 -th epoch marginal likelihood 357.49520859121134
+300 -th epoch marginal likelihood 322.0455323891204
+350 -th epoch marginal likelihood 294.4412290324131
+400 -th epoch marginal likelihood 270.28552168554455
+450 -th epoch marginal likelihood 248.44331432855176
+500 -th epoch marginal likelihood 233.66282756752798
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 317.15212392802465
+50 -th epoch marginal likelihood 223.92009397530177
+100 -th epoch marginal likelihood 154.31132260825194
+150 -th epoch marginal likelihood 96.61979123138423
+200 -th epoch marginal likelihood 54.0486195046974
+250 -th epoch marginal likelihood 19.00603334105398
+300 -th epoch marginal likelihood -7.509219439623848
+350 -th epoch marginal likelihood -29.474740360244652
+400 -th epoch marginal likelihood -46.57171338187533
+450 -th epoch marginal likelihood -61.00468275492949
+500 -th epoch marginal likelihood -73.17388850215787
+Done
+
+Proposals
+###
+number = 1
+actions =  221
+proposal =  [ 1.85    1.3875  2.75    3.44    7.      1.      1.     13.7582  2.8259]
+###
+Finish selection of proposals!
+  Querying: Fe3Ni(PO4)6 (mp-771187_Li)  [TM=Fe]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 79137.81it/s]
+  avg_voltage = 4.3947 V    max_ΔV = 0.0091
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 79/80 [PHYSBO] (806 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 717.4327091858727
+50 -th epoch marginal likelihood 603.3631280627628
+100 -th epoch marginal likelihood 517.4123570085167
+150 -th epoch marginal likelihood 445.9306013281801
+200 -th epoch marginal likelihood 391.0603293275535
+250 -th epoch marginal likelihood 348.0828699224752
+300 -th epoch marginal likelihood 310.34862309658746
+350 -th epoch marginal likelihood 283.9663193546562
+400 -th epoch marginal likelihood 260.9361477788892
+450 -th epoch marginal likelihood 240.99184364753177
+500 -th epoch marginal likelihood 225.0539335013518
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 321.78521376753815
+50 -th epoch marginal likelihood 228.32791230462863
+100 -th epoch marginal likelihood 158.23535332368544
+150 -th epoch marginal likelihood 101.36843972401368
+200 -th epoch marginal likelihood 58.81111152973949
+250 -th epoch marginal likelihood 21.545538169823203
+300 -th epoch marginal likelihood -5.672270296507293
+350 -th epoch marginal likelihood -29.507186789927204
+400 -th epoch marginal likelihood -47.30230458178107
+450 -th epoch marginal likelihood -61.96598151653052
+500 -th epoch marginal likelihood -73.41016989434311
+Done
+
+Proposals
+###
+number = 1
+actions =  165
+proposal =  [ 1.55    1.4     7.      3.44    1.     36.      3.     22.9648  3.9743]
+###
+Finish selection of proposals!
+  Querying: Cs2MnO4 (mp-18722_Li)  [TM=Mn]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 68759.08it/s]
+/home/hithesh/project/nimo/.venv/lib/python3.12/site-packages/physbo/gp/core/_model.py:320: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  return np.random.multivariate_normal(fmean, fcov * alpha**2, N)
+  avg_voltage = 3.1640 V    max_ΔV = 0.0269
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+── Cycle 80/80 [PHYSBO] (805 unmeasured) ──
+Start selection of proposals by PHYSBO!
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 725.7639783383665
+50 -th epoch marginal likelihood 605.2298552031139
+100 -th epoch marginal likelihood 519.4900542454591
+150 -th epoch marginal likelihood 453.00978509483707
+200 -th epoch marginal likelihood 396.41173979163034
+250 -th epoch marginal likelihood 350.68688709657516
+300 -th epoch marginal likelihood 316.5837626066133
+350 -th epoch marginal likelihood 289.9123379056025
+400 -th epoch marginal likelihood 266.5059565464029
+450 -th epoch marginal likelihood 248.1149038780593
+500 -th epoch marginal likelihood 232.30533902778473
+Done
+
+Start the initial hyper parameter searching ...
+Done
+
+Start the hyper parameter learning ...
+0 -th epoch marginal likelihood 311.959901520906
+50 -th epoch marginal likelihood 217.44934398402813
+100 -th epoch marginal likelihood 147.06507183024917
+150 -th epoch marginal likelihood 91.1083378368719
+200 -th epoch marginal likelihood 48.089713900877285
+250 -th epoch marginal likelihood 14.91585586346983
+300 -th epoch marginal likelihood -13.043660049819863
+350 -th epoch marginal likelihood -35.994884172383735
+400 -th epoch marginal likelihood -51.655277514601465
+450 -th epoch marginal likelihood -66.91192673385382
+500 -th epoch marginal likelihood -79.11230384766318
+Done
+
+Proposals
+###
+number = 1
+actions =  613
+proposal =  [ 1.91    1.35    2.      3.44    5.      1.      1.     13.2291  4.5395]
+###
+Finish selection of proposals!
+  Querying: Nb6NiO18 (mp-759780_Li)  [TM=Ni]
+Retrieving InsertionElectrodeDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving InsertionElectrodeDoc documents: 100%|██████████| 1/1 [00:00<00:00, 69905.07it/s]
+  avg_voltage = 3.5363 V    max_ΔV = 0.0159
+  Best voltage : 5.4383 V  (Mn(PO3)4)
+  Best ΔV      : 0.0002    (NbNi3O8)
+
+Checkpoint removed (run complete).
+
+====================================================================
+Optimization complete — PHYSBO, 88 queries
+
+Pareto front (4 materials):
+  Formula                battery_id           Voltage       ΔV  TM
+  --------------------------------------------------------------------
+  Mn(PO3)4               mp-26274_Li           5.4383   0.0101  Mn
+  Fe3(PO4)4              mp-26077_Li           5.2968   0.0084  Fe
+  MnPO5                  mp-757358_Li          5.0787   0.0012  Mn
+  NbNi3O8                mp-754424_Li          3.8357   0.0002  Ni
+
+ Cyc  Formula                 TM   Voltage        ΔV
+  ----------------------------------------------------
+    4  Mn(PO3)4                Mn    5.4383    0.0101
+    7  Fe3(PO4)4               Fe    5.2968    0.0084
+    1  CoP2O7                  Co    5.2705    0.0240
+   63  NiPO4F                  Ni    5.0577    0.0654
+   74  Fe(SeO3)2               Fe    5.0544    0.0179
+   33  Mn(Si2O5)2              Mn    5.0401    0.0860
+   59  Sc9Fe(SiO3)20           Fe    5.0105    0.0054
+   50  Ni(PO4)2                Ni    4.9807    0.0115
+    9  Nd2Tl(MoO4)4            Mo    4.8747    0.0328
+   24  Ni2C4SO16               Ni    4.8072    0.0605
+   70  NiBO3                   Ni    4.7635    0.0014
+   11  Na5Fe6(SiO3)12          Fe    4.7302    0.0031
+   68  FeSiO4                  Fe    4.7107    0.0023
+   14  CoH8(CO5)2              Co    4.6718    0.0484
+   58  FeP2O9                  Fe    4.6252    0.0122
+   55  VF6                      V    4.6234    0.0185
+   17  MnPO4                   Mn    4.6083    0.0117
+   60  Mn(O2F)2                Mn    4.5336    0.0612
+   77  MnF8                    Mn    4.5199    0.0192
+   43  CrP2(O4F)2              Cr    4.5189    0.0285
+   32  Ni4P4O15                Ni    4.4405    0.0212
+   78  Fe3Ni(PO4)6             Fe    4.3947    0.0091
+   51  Co2(PO4)3               Co    4.3813    0.0927
+   64  Fe(PO3)3                Fe    4.3793    0.0107
+   30  Cr3Co(PO4)6             Cr    4.2861    0.0442
+    2  MnCSO7                  Mn    4.2646    0.0806
+   38  VFe3(PO4)6              Fe    4.2151    0.0137
+   37  VNi3(PO4)6              Ni    4.1887    0.0131
+   44  Mn9(P2O7)8              Mn    4.1882    0.0218
+   36  NiO2                    Ni    4.0992    0.0269
+   42  Mn2O3F                  Mn    4.0499    0.0344
+   52  Cr12Fe7O48              Cr    4.0302    0.0042
+   65  Mn15NiO32               Mn    4.0209    0.0515
+   22  FeBAsO7                 Fe    4.0180    0.0429
+   73  TiFe3(PO4)6             Fe    4.0128    0.0436
+   62  CoCu(PO4)2              Co    3.9996    0.0606
+   29  Mn3Cu3(TeO8)2           Mn    3.9879    0.0909
+    6  Mn2Cu3O10               Mn    3.9818    0.0052
+   72  FePO4                   Fe    3.8474    0.0225
+   27  NbNi3O8                 Ni    3.8357    0.0002
+   26  VP2(O4F)2                V    3.8240    0.0077
+    8  Mn3Nb2Co3O16            Mn    3.7902    0.1053
+   21  Co13O28                 Co    3.7750    0.0211
+   66  SrLa15(CoO8)4           Co    3.7681    0.0121
+   56  Mn5O7F                  Mn    3.7042    0.0260
+   48  V(TeO4)3                 V    3.6370    0.0737
+   23  La2Ti2CrO9              Ti    3.5905    0.0085
+   16  Mo3P3O13                Mo    3.5600    0.0071
+   53  Ni11O28                 Ni    3.5489    0.0205
+    5  Cr3WO8                  Cr    3.5380    0.0394
+   80  Nb6NiO18                Ni    3.5363    0.0159
+   35  Mo2(PO4)3               Mo    3.5325    0.0037
+   19  La4MnO8                 Mn    3.5252    0.0246
+   34  Fe2C4SO16               Fe    3.4885    0.0357
+   54  K11Mn4O16               Mn    3.4772    0.0040
+   46  FeMoClO4                Fe    3.4295    0.0059
+   10  K2NiO4                  Ni    3.4220    0.0263
+   41  Ge3(MoO6)2              Mo    3.3720    0.0024
+   31  La4FeO8                 Fe    3.3679    0.0244
+   39  MoP2O9                  Mo    3.3631    0.0173
+   18  NaMnP2O7                Mn    3.3528    0.0889
+   12  Cr3(FeO6)2              Cr    3.2477    0.0189
+   49  Ti(PO3)4                Ti    3.2354    0.0117
+   75  V3(P3O10)2               V    3.2059    0.0105
+   79  Cs2MnO4                 Mn    3.1640    0.0269
+   40  FeBO3                   Fe    3.0889    0.0106
+   71  VO3F                     V    3.0814    0.0259
+   67  Zr7Fe(PO4)12            Fe    3.0411    0.0058
+   47  Mn5Fe3O16               Mn    3.0318    0.1944
+   13  V(CO3)2                  V    3.0164    0.0149
+   69  Mo3O8                   Mo    2.9926    0.0238
+   15  V3O5F                    V    2.9892    0.0073
+   76  Cr2(PS4)3               Cr    2.9096    0.0909
+   20  Cr(PO3)3                Cr    2.8274    0.0280
+   61  FeOF5                   Fe    2.8263    0.0026
+    3  Mn5O8                   Mn    2.8245    0.0014
+   28  V3O8                     V    2.7555    0.0166
+   57  NbV3(PO4)6               V    2.7450    0.0380
+   25  CsMnP3HO10              Mn    2.6125    0.0801
+   45  Ca3Fe5Sn3O16            Fe    2.5757    0.0065
+
+Plot → battery_convergence_PHYSBO_battery.png

@@ -1,0 +1,65 @@
+# na_ion_config.yaml
+# Na-ion intercalation cathode search using the same pipeline as Li-ion.
+#
+# Goal: find Na-intercalation cathodes that simultaneously
+#   maximise average intercalation voltage  (energy density proxy)
+#   minimise volume change on sodiation     (cycle stability proxy)
+#
+# Na-ion context:
+#   - Commercial cells: CATL/BYD announced Na-ion 2023–2024
+#   - Key cathodes: Na₂/₃MnO₂ (layered), NaFePO₄ (olivine), Na₃V₂(PO₄)₃ (NASICON)
+#   - Voltage window lower than Li (~1.5–4.3 V vs Na/Na⁺)
+#   - No scissor correction needed — MP voltages are DFT-computed
+#   - Na⁺ is larger than Li⁺ (1.02 Å vs 0.76 Å) → more volume change expected
+#
+# Practical notes:
+#   - voltage_practical_max: 4.0 V (Na-ion electrolytes typically stable to ~4.0–4.3 V)
+#   - hull_threshold relaxed to 0.15 eV/atom — Na-ion cathodes are less mature
+#     and more metastable phases are experimentally accessible
+#   - max_delta_volume relaxed to 0.50 — Na insertion causes larger strain
+
+battery:
+  working_ion:           "Na"
+  tm_elements:           ["Co", "Mn", "Ni", "Fe", "V", "Cr", "Ti", "Mo", "Cu"]
+  voltage_min:           1.5    # V vs Na/Na⁺ — lower bound for useful Na cathodes
+  voltage_max:           5.0    # V — upper bound for MP query
+  voltage_practical_max: 4.0    # V — Na-ion electrolyte stability limit
+  max_delta_volume:      0.50   # fractional — Na⁺ larger than Li⁺, more strain allowed
+  hull_threshold:        0.15   # eV/atom — relaxed: Na-ion space less mature
+
+# File paths
+files:
+  candidates:  "na_ion_candidates.csv"
+  proposals:   "na_ion_proposals.csv"
+  nimo_csv:    "na_ion_nimo_working.csv"
+  checkpoint:  "na_ion_checkpoint.json"
+  plot_prefix: "na_ion_convergence"
+
+# NIMO loop parameters
+nimo:
+  num_cycles:     160
+  seed_cycles:    8
+  num_objectives: 2    # neg_avg_voltage  AND  max_delta_volume
+  num_proposals:  1
+  default_method: "PHYSBO"
+
+# Feature columns — identical to Li-ion (same physics, same descriptors)
+feature_cols:
+  - "tm_eneg"
+  - "tm_ionic_radius"
+  - "tm_max_oxidation_state"
+  - "anion_eneg"
+  - "li_per_fu"               # NOTE: for Na-ion this counts Na atoms per fu
+  - "spacegroup_number"
+  - "crystal_system"
+  - "volume_per_atom"
+  - "density"
+  - "polyanion_eneg"
+  - "structure_prototype"
+  - "tm_oxidation_discharge"
+
+# Materials Project API settings
+api:
+  max_retries:       3
+  retry_base_delay:  2.0
+  inter_call_delay:  0.5

@@ -1,0 +1,46 @@
+# antiperovskite_config.yaml
+# Single source of truth for mp_fetch_antiperovskite.py and mp_nimo_antiperovskite.py
+
+# Element pools for M3AX antiperovskite structure (halide-free: N and C only)
+elements:
+  M: ["Mn", "Fe", "Co", "Ni", "Cr"]
+  A: ["Ga", "Ge", "Sn", "Al", "Zn", "In", "Si", "Cu", "Pb"]
+  X: ["N", "C"]
+
+# Exclude materials too far above the convex hull
+# 0.0  = on hull only | 0.05 = slightly metastable | 0.1 = broad screening
+hull_threshold: 0.05
+
+# File paths (relative to working directory)
+files:
+  candidates:  "antiperovskite_candidates.csv"
+  proposals:   "antiperovskite_proposals.csv"
+  nimo_csv:    "antiperovskite_nimo_working.csv"
+  checkpoint:  "antiperovskite_checkpoint.json"
+  plot_prefix: "antiperovskite_convergence"
+
+# NIMO loop parameters
+nimo:
+  num_cycles:     30
+  seed_cycles:    5
+  num_objectives: 1
+  num_proposals:  1
+  default_method: "PHYSBO"   # PHYSBO | BLOX | RE | NTS | AX
+
+# Feature columns fed to NIMO (must match CSV column names, excluding objective)
+feature_cols:
+  - "m_eneg"
+  - "a_eneg"
+  - "x_eneg"
+  - "m_radius"
+  - "a_radius"
+  - "x_radius"
+  - "m_max_oxid"
+  - "a_max_oxid"
+  - "tolerance_factor"
+
+# Materials Project API settings
+api:
+  max_retries:       3
+  retry_base_delay:  2.0   # seconds; wait = base * 2^attempt  (2s, 4s, 8s)
+  inter_call_delay:  0.3   # seconds to sleep between consecutive API calls
