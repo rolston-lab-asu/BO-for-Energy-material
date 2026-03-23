@@ -1,16 +1,71 @@
-# nimo
+# BO for Energy Materials
 
-NIMO is a Python library to realize a closed loop of robotic experiments and artificial intelligence without human intervention for automated materials exploration. We started development as NIMS-OS (NIMS Orchestration System) (https://github.com/nimsos-dev/nimsos) and decided to adopt NIMO as a nickname to promote it as open source software. NIMO can perform automated materials exploration in various combinations by considering artificial intelligence and robotic experiments as modules. As artificial intelligence technique for materials science, Bayesian optimization method (PHYSBO), boundLess objective-free exploration method (BLOX), phase diagram construction method (PDC), Probability that properties within the Target Range (PTR), Bayesian optimization for materials and process parameters (BOMP), Bayesian optimization for combinatorial materials (COMBI), and random exploration (RE) can be used. Visualization tools for the results are also included, allowing users to check optimization results in real time. Newly created modules for artificial intelligence and robotic experiments can be added and used. More modules will be added in the future.
+Bayesian optimisation pipeline for automated materials exploration, built on top of [NIMO](https://github.com/NIMS-DA/nimo). This repository integrates NIMO with the [Materials Project (MP) API](https://materialsproject.org/) to run closed-loop, human-free searches for optimal energy materials across three material classes.
 
-<img width="600" alt="modules" src="https://github.com/user-attachments/assets/ee7ca756-b4ea-4fc6-8d41-6e1ff47afdfd">
+---
 
+## What this project does
 
-# Document
+Each material class follows the same three-phase workflow:
 
-- [English](https://nims-da.github.io/nimo/en/)
-- [Japanese](https://nims-da.github.io/nimo/ja/)
+1. **Fetch** — query the MP API, compute features, blank objectives → CSV
+2. **Loop** — NIMO proposes candidates → oracle fills objectives → CSV updated
+3. **Benchmark** — offline benchmark using a table-lookup oracle (no API calls needed)
 
-# Required Packages
+### Active pipelines
+
+| Phase | Problem | Config | Candidates | Pool size |
+|-------|---------|--------|------------|-----------|
+| 1 | Halide perovskite ABX₃ (PV band gap) | `perovskite_config.yaml` | `perovskite_candidates.csv` | 23 |
+| 2 | Antiperovskite (formation energy) | `antiperovskite_config.yaml` | `antiperovskite_candidates.csv` | 21 |
+| 3 | Li-intercalation battery cathode | `battery_config.yaml` | `battery_candidates.csv` | 892 |
+
+---
+
+## Benchmark results
+
+### Perovskite — 23 candidates, 60 cycles, 5 seeds
+
+| Method | Mean discovery cycle | Found % | Mean HV |
+|--------|---------------------|---------|---------|
+| PHYSBO | 10.4 | 100% | 2.9981 |
+| BLOX   | 12.6 | 100% | 2.9981 |
+| RE     | 10.6 | 100% | 2.9981 |
+
+Best material: **CsSnI₃** (band gap = 1.20 eV, deviation 0.14 eV from 1.34 eV SQ target)
+
+### Antiperovskite — 21 candidates, 30 cycles, 5 seeds
+
+| Method | Mean discovery cycle | Found % |
+|--------|---------------------|---------|
+| PHYSBO | 8.0  | 100% |
+| NTS    | 8.6  | 100% |
+| BLOX   | 9.6  | 100% |
+| RE     | 12.4 | 100% |
+| AX     | 12.4 | 100% |
+
+Best material: **Mn₃ZnN** (formation energy = −0.4506 eV/atom)
+
+### Battery Li-ion — 892 candidates, 80 cycles, 5 seeds
+
+| Method | Found % | Mean HV |
+|--------|---------|---------|
+| PHYSBO | 0% | 0.7944 |
+| RE     | 0% | 0.7813 |
+| BLOX   | 0% | 0.7664 |
+
+At ~9% pool coverage, direct discovery is not expected. Hypervolume is the primary metric.
+
+### Na-ion — 206 candidates, 5 seeds
+
+| Cycles | Coverage | PHYSBO HV | RE HV |
+|--------|----------|-----------|-------|
+| 40 | 19% | 1.2826 | 1.2732 |
+| 80 | 39% | 1.2848 | 1.2807 |
+
+---
+
+## Required Packages
 
 - Python >= 3.6
 - matplotlib
@@ -19,35 +74,48 @@ NIMO is a Python library to realize a closed loop of robotic experiments and art
 - scikit-learn
 - scipy
 - pyDOE3
+- mp-api
 
-# Install
+---
 
-* From PyPI (recommended)
-
-  ```bash
-  pip install nimo
-  ```
-
-* From source
-
-  1. Download or clone the github repository
-
-  ```
-  git clone https://github.com/NIMS-DA/nimo
-  ```
-
-  2. Install via pip in the nimo-main folder
-
-  ```bash
-  pip install .
-  ```
-
-# Uninstall
+## Setup
 
 ```bash
-pip uninstall nimo
+git clone https://github.com/Battery-Degradation-Rolston-Lab/BO-for-Energy-material.git
+cd BO-for-Energy-material
+pip install nimo
 ```
 
-# License
+Set your Materials Project API key as an environment variable (never hardcode it):
 
-The program package and the complete source code of this software are distributed under the MIT License.
+```bash
+export MP_API_KEY=your_key_here
+```
+
+---
+
+## Acknowledgments
+
+This project builds on [NIMO](https://github.com/NIMS-DA/nimo) (MIT License) and the following methods and libraries:
+
+**PHYSBO** — GP-based Bayesian optimization (core engine for PHYSBO, NTS, PTR, BOMP, SLESA, COMBI):
+> Motoyama et al., *Computer Physics Communications* **278**, 108405 (2022). https://doi.org/10.1016/j.cpc.2022.108405
+
+**BLOX** — Boundless objective-free exploration (Random Forest + Stein Novelty):
+> Terayama et al., *Chemical Science* **11**, 5959–5968 (2020). https://doi.org/10.1039/D0SC00982B
+
+**PDC** — Phase diagram construction via uncertainty sampling:
+> Terayama et al., *Physical Review Materials* **3**, 033802 (2019). https://doi.org/10.1103/PhysRevMaterials.3.033802
+> Tamura et al., *Sci. Technol. Adv. Mater.: Methods* **2**, 153–161 (2022). https://doi.org/10.1080/27660400.2022.2076548
+
+**AX** — Adaptive Experimentation Platform (BoTorch GP, continuous-to-discrete mapping):
+> Baird, Falkowski & Sparks, arXiv:2502.06815 (2025). https://honegumi.readthedocs.io
+
+**Materials Project** — Crystal structure and property data:
+> https://materialsproject.org
+
+---
+
+## License
+
+Distributed under the MIT License.
