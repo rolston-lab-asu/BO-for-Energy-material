@@ -1,0 +1,70 @@
+# li3ab_config.yaml
+# Li3(A2-)(B-) antiperovskite solid electrolyte candidate generation and BO ranking
+#
+# A2- = divalent anion site (octahedral center): O, S, Se, Te
+# B-  = monovalent non-halide anion site (corner):
+#        OH, H, CN, BH4, OCN, NO2, BF4, N3, ClO4, AlH4, SCN, NO3
+#
+# Tolerance factor (Goldschmidt, antiperovskite form):
+#   t = (r_Li + r_B) / (sqrt(2) * (r_A + r_Li))
+#
+# Stability window: t in [t_min, t_max]
+
+tolerance:
+  li_radius: 0.76    # Shannon CN=VI (Angstrom)
+  t_min: 0.80
+  t_max: 1.00
+  t_ideal: 0.90      # midpoint of stable window, used for t_deviation objective
+
+# A2- ionic radii: Shannon 1976 (CN=VI)
+anions_A:
+  "O2-":  {radius: 1.40, eneg: 3.44, element: O}
+  "S2-":  {radius: 1.84, eneg: 2.58, element: S}
+  "Se2-": {radius: 1.98, eneg: 2.55, element: Se}
+  "Te2-": {radius: 2.21, eneg: 2.10, element: Te}
+
+# B- effective ionic radii from literature
+anions_B:
+  "OH-":   {radius: 1.37,  eneg: 3.44, source: "Shannon 1976",            na_analogue: false}
+  "H-":    {radius: 1.40,  eneg: 2.20, source: "Shannon 1976",            na_analogue: false}
+  "CN-":   {radius: 1.91,  eneg: 2.55, source: "Jenkins & Glasser 2002",  na_analogue: true}
+  "BH4-":  {radius: 2.03,  eneg: 2.04, source: "Fang & Jena 2017",        na_analogue: false}
+  "OCN-":  {radius: 2.16,  eneg: 3.44, source: "Jenkins & Glasser 2002",  na_analogue: false}
+  "NO2-":  {radius: 2.162, eneg: 3.04, source: "NIST 10.17188/1195055",   na_analogue: true}
+  "BF4-":  {radius: 2.28,  eneg: 3.98, source: "Fang & Jena 2017",        na_analogue: false}
+  "N3-":   {radius: 2.31,  eneg: 3.04, source: "Jenkins & Glasser 2002",  na_analogue: false}
+  "ClO4-": {radius: 2.36,  eneg: 3.16, source: "Jenkins & Glasser 2002",  na_analogue: false}
+  "AlH4-": {radius: 2.53,  eneg: 1.61, source: "Fang & Jena 2017",        na_analogue: false}
+  "SCN-":  {radius: 2.56,  eneg: 2.58, source: "Jenkins & Glasser 2002",  na_analogue: false}
+  "NO3-":  {radius: 2.64,  eneg: 3.04, source: "Gao et al. 2020",         na_analogue: false}
+
+files:
+  full_map:    "li3ab_map.csv"           # all 48 (A,B) pairs with t values
+  candidates:  "li3ab_candidates.csv"    # only viable (t in window), with proxy objectives
+  proposals:   "li3ab_proposals.csv"
+  nimo_csv:    "li3ab_nimo_working.csv"
+  checkpoint:  "li3ab_checkpoint.json"
+  plot_prefix: "li3ab_convergence"
+  heatmap:     "li3ab_tolerance_map.png"
+
+nimo:
+  num_cycles:     20
+  seed_cycles:    4
+  num_objectives: 2
+  num_proposals:  1
+  default_method: "PHYSBO"
+
+# Proxy objectives (both minimised, analytically computed — no DFT required)
+#   obj1: t_deviation  = |tolerance_factor - t_ideal|  (geometric stability)
+#   obj2: b_radius_norm = b_radius / max_b_radius       (paddlewheel facilitation:
+#                                                          smaller B- = faster rotation)
+# Replace obj2 with formation_energy_per_atom once DFT data is available.
+
+feature_cols:
+  - "a_radius"
+  - "b_radius"
+  - "a_eneg"
+  - "b_eneg"
+  - "tolerance_factor"
+  - "octahedral_factor"
+  - "na_analogue"
